@@ -23,6 +23,7 @@ import InputText from 'primevue/inputtext';
 //Router
 import router from "@/router";
 
+
 createApp(App)
     .use(PrimeVue, { ripple: true })
     .component('pv-card', Card)
