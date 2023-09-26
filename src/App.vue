@@ -7,6 +7,8 @@
 
 <script >
   import HeaderContentComponent from "@/shared/components/header-content.component.vue";
+
+
   export default {
     name:"App",
     components:{HeaderContentComponent},
