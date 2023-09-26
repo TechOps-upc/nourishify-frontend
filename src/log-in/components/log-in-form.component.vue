@@ -158,7 +158,7 @@ export default {
           this.successMessage = '';
         } else {
           this.error = '';
-          this.$router.push({ name: 'Profile', params: { id: response.data[0].id } });
+          this.$router.push(`/profile/${response.data[0].id}`);
 
         }
       } catch (err) {
