@@ -1,17 +1,17 @@
 <template>
   <header class="header">
     <router-link to="/link" class="logo-link">
-      <img class="logo" src="public/header-content-images/nourishify-logo.png" alt="Nourishify Logo" />
+      <img class="logo" src="../../../public/header-content-images/nourishify-logo.png" alt="Nourishify Logo" />
     </router-link>
     <router-link to="/link" class="profile-link">
-      <img class="profile-icon" src="public/header-content-images/icon-profile.png" alt="Profile Icon" />
+      <img class="profile-icon" src="../../../public/header-content-images/icon-profile.png" alt="Profile Icon" />
     </router-link>
   </header>
 </template>
 
 <script>
   export default {
-    name: 'HeaderComponent'
+    name: 'HeaderContentComponent'
   };
 </script>
 
@@ -21,11 +21,11 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    background-color: whitesmoke; /* Change this to your desired background color */
+    background-color: whitesmoke;
     padding: 10px 20px;
     box-sizing: border-box;
     margin: 0;
-    border-bottom: 1px solid black; /* Added black bottom border */
+    border-bottom: 1px solid black;
   }
 
   .logo-link, .profile-link {
