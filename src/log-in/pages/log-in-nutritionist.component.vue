@@ -27,17 +27,15 @@ export default {
 }
 
 .image-container, .form-container {
-  flex: 1;  /* Ocupa la mitad del espacio disponible en el contenedor principal */
+  flex: 1;
   display: flex;
-  align-items: center; /* Centra el contenido verticalmente */
-  justify-content: center; /* Centra el contenido horizontalmente */
+  align-items: center;
+  justify-content: center;
 }
 
 .login-image {
   width: 80%;
 }
 
-.log-in-form {
-  width: 80%; /* Ajusta según necesidad */
-}
+
 </style>
