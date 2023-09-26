@@ -77,5 +77,45 @@
       "email": "nutritionist3@example.com",
       "password": "nutri9012"
     }
-  ]
+  ],
+  "foodPlan":{
+    "1": {
+      "monday": {
+        "breakfast": "Oatmeal with fruits and honey, Low-fat yogurt, Green tea",
+        "lunch": "Grilled chicken breast, Quinoa, Mixed salad with olive oil",
+        "dinner": "Spinach omelette, Whole grain bread, Fresh orange juice"
+      },
+      "tuesday": {
+        "breakfast": "Berry smoothie, Whole grain bread with avocado, Black coffee",
+        "lunch": "Salmon fillet, Brown rice, Steamed broccoli",
+        "dinner": "Vegetable soup, Whole grain toasts, Chamomile tea"
+      },
+      "wednesday": {
+        "breakfast": "Green detox juice, Scrambled eggs, Whole grain bread",
+        "lunch": "Fish tacos, Chickpea salad, Lemon water",
+        "dinner": "Chicken soup, Fresh salad, Linden tea"
+      },
+      "thursday": {
+        "breakfast": "Granola with yogurt, Chopped fruits, Mint infusion",
+        "lunch": "Grilled meat, Spinach and nut salad, Fruit juice",
+        "dinner": "Whole grain spaghetti with tomato and basil, Garlic bread, Plain water"
+      },
+      "friday": {
+        "breakfast": "Whole grain waffles with honey, Fruit, Coffee with milk",
+        "lunch": "Chicken enchiladas, Rice with vegetables, Fruit water",
+        "dinner": "Whole grain vegetable pizza, Green salad, Iced tea"
+      },
+      "saturday": {
+        "breakfast": "Whole grain pancakes with syrup, Fruit smoothie, Black tea",
+        "lunch": "Fish ceviche, Toasts, Natural soda",
+        "dinner": "Salmon and avocado sushi, Asian salad, Coconut water"
+      },
+      "sunday": {
+        "breakfast": "Chicken chilaquiles, Refried beans, Coffee",
+        "lunch": "Mixed barbecue, Baked potatoes, Coleslaw salad",
+        "dinner": "Caesar salad, Garlic bread, Red fruit tea"
+      }
+    }
+  }
+
 }
