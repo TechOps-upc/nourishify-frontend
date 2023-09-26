@@ -1,0 +1,81 @@
+{
+  "clients": [
+    {
+      "id": 1,
+      "email": "client1@example.com",
+      "password": "client1234",
+      "full-name": "Juan Perez",
+      "address": "Av. Pardo 345, Miraflores, Lima",
+      "phone": "987654321",
+      "plan": "Nourishify Basic",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 2,
+      "email": "client2@example.com",
+      "password": "client5678",
+      "full-name": "Maria Rodriguez",
+      "address": "Jr. Lampa 123, Cercado de Lima, Lima",
+      "phone": "987123456",
+      "plan": "Nourishify SlimDown",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 3,
+      "email": "client3@example.com",
+      "password": "client9012",
+      "full-name": "Carlos Fernandez",
+      "address": "Av. Angamos 789, Surquillo, Lima",
+      "phone": "987789012",
+      "plan": "Nourishify MuscleGain",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 4,
+      "email": "client4@example.com",
+      "password": "client3456",
+      "full-name": "Lucia Gutierrez",
+      "address": "Cl. Los Alamos 456, La Molina, Lima",
+      "phone": "987012345",
+      "plan": "Nourishify AthletePro",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 5,
+      "email": "client5@example.com",
+      "password": "client6789",
+      "full-name": "Roberto Mendoza",
+      "address": "Av. Larco 123, Barranco, Lima",
+      "phone": "987234567",
+      "plan": "Nourishify Basic",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 6,
+      "email": "client6@example.com",
+      "password": "client0123",
+      "full-name": "Rosa Huaman",
+      "address": "Cl. Los Pinos 987, San Borja, Lima",
+      "phone": "987345678",
+      "plan": "Nourishify SlimDown",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    }
+  ],
+  "nutritionists": [
+    {
+      "id": 1,
+      "email": "nutritionist1@example.com",
+      "password": "nutri1234"
+    },
+    {
+      "id": 2,
+      "email": "nutritionist2@example.com",
+      "password": "nutri5678"
+    },
+    {
+      "id": 3,
+      "email": "nutritionist3@example.com",
+      "password": "nutri9012"
+    }
+  ]
+}
