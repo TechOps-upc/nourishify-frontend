@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>How would you like to sign in?</h1>
+    <h1>How would you like to log in?</h1>
     <div class="content">
       <div class="image-wrapper">
         <img class="image bordered" src="/public/how-would-sign-up-images/client-sign-up.png" alt="Left Image">
