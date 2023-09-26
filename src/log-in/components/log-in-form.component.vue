@@ -25,27 +25,27 @@
 
 <style scoped>
 .login-container {
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
   display: flex;
-  justify-content: flex-end; /* Mover el contenido al final (derecha) */
+  justify-content: flex-end;
   align-items: center;
-  height: calc(95vh - 60px); /* Restamos el alto del header */
-  width: 50vw; /* Ocupa la mitad derecha del viewport */
+  height: calc(95vh - 60px);
+  width: 50vw;
   position: absolute;
   padding-right: 25px;
-  right: 0; /* Asegura que está en el lado derecho de la pantalla */
+  right: 0;
 }
 
 
 .login-box {
-  width: 50vw; /* 50% del ancho del viewport */
-  height: 90%; /* Ocupa todo el alto del contenedor */
+  width: 50vw;
+  height: 90%;
   padding: 30px;
   border: 1px solid black;
   border-radius: 20px;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-  overflow-y: auto; /* En caso de que el contenido interno sea muy largo */
+  overflow-y: auto;
 }
 
 .login-title {
@@ -108,13 +108,13 @@ a {
 }
 .button-message-container .error-message {
   display: flex;
-  align-items: center; /* Alinea verticalmente al centro */
-  justify-content: flex-end; /* Alinea horizontalmente al inicio */
-  gap: 20px; /* Espaciado entre los elementos */
+  align-items: center;
+  justify-content: flex-end;
+  gap: 20px;
 }
 
 .button-container {
-  flex-shrink: 0; /* Previene que el botón se encoja */
+  flex-shrink: 0;
 }
 
 .success-message {
@@ -124,8 +124,8 @@ a {
 </style>
 
 <script>
-import { fetchClientByCredentials as fetchClient } from '@/log-in/services/clients-api.service';
-import { fetchClientByCredentials as fetchNutritionist } from '@/log-in/services/nutritionist-api.service';
+import { fetchClientByCredentials as fetchClient } from '@/log-in/services/users-api.service.js';
+import { fetchNutritionistByCredentials as fetchNutritionist } from '@/log-in/services/users-api.service.js';
 
 export default {
   data() {
@@ -155,15 +155,15 @@ export default {
 
         if (response.data.length === 0) {
           this.error = 'Invalid email or password';
-          this.successMessage = ''; // Asegurarse de que no haya ningún mensaje de éxito previo
+          this.successMessage = '';
         } else {
           this.error = '';
-          this.successMessage = 'Datos ingresados correctamente';
-          // Redirect or perform other action upon successful login
+          this.$router.push({ name: 'Profile', params: { id: response.data[0].id } });
+
         }
       } catch (err) {
         this.error = 'Error logging in';
-        this.successMessage = ''; // Asegurarse de que no haya ningún mensaje de éxito previo
+        this.successMessage = '';
       }
     }
   }

@@ -5,7 +5,10 @@ import LogInFormComponent from "@/log-in/components/log-in-form.component.vue";
 import LogInClientsComponent from "@/log-in/pages/log-in-clients.component.vue";
 import LogInNutritionistComponent from "@/log-in/pages/log-in-nutritionist.component.vue";
 import HowLogInComponent from "@/public/pages/how-log-in.component.vue";
-
+import ToolbarComponent from "@/shared/components/toolbar.component.vue";
+import Profile from "@/profile/pages/profile.component.vue";
+import ProfileDataComponent from "@/profile/components/profile-data.component.vue";
+import profileDataComponent from "@/profile/components/profile-data.component.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -35,9 +38,22 @@ const router = createRouter({
         {
             path:"/log-in-nutritionist",
             component:LogInNutritionistComponent,
+        },
+
+        {
+            path:"/toolbar",
+            component:ToolbarComponent,
+
+        },
+        {
+            path:"/profile/:id",
+            component:Profile
+
         }
 
-    ],
+
+
+    ]
 });
 
 export default router;
