@@ -2,7 +2,7 @@
   <div class="toolbar">
     <router-link class="section" to="#">Profile</router-link>
     <router-link class="section" to="#">My Appointments</router-link>
-    <router-link class="section" to="#">My Food Plans</router-link>
+    <router-link class="section" to="/food-plan">My Food Plans</router-link>
     <router-link class="section" to="#">Search a Date</router-link>
     <div class="logout-section" @click="logout">Logout</div>
   </div>

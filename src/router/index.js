@@ -9,6 +9,8 @@ import ToolbarComponent from "@/shared/components/toolbar.component.vue";
 import Profile from "@/profile/pages/profile.component.vue";
 import ProfileDataComponent from "@/profile/components/profile-data.component.vue";
 import profileDataComponent from "@/profile/components/profile-data.component.vue";
+import foodPlanComponent from "@/food-plan/pages/food-plan.component.vue";
+
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -49,8 +51,12 @@ const router = createRouter({
             path:"/profile/:id",
             component:Profile
 
-        }
+        },
 
+        {
+            path:"/food-plan",
+            component:foodPlanComponent,
+        }
 
 
     ]
