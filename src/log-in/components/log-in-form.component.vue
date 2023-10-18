@@ -23,6 +23,65 @@
   </div>
 </template>
 
+<script>
+import { fetchClientByCredentials as fetchClient } from '@/log-in/services/users-api.service.js';
+import { fetchNutritionistByCredentials as fetchNutritionist } from '@/log-in/services/users-api.service.js';
+
+export default {
+  data() {
+    return {
+      email: '',
+      password: '',
+      error: '',
+      successMessage: ''
+    };
+  },
+  props: {
+    userRole: {
+      type: String,
+      required: true
+    }
+  },
+  methods: {
+    async login() {
+      try {
+        let response;
+
+        if (this.userRole === 'client') {
+          response = await fetchClient(this.email, this.password);
+        } else if (this.userRole === 'nutritionist') {
+          response = await fetchNutritionist(this.email, this.password);
+        }
+
+        if (response.data.length === 0) {
+          this.error = 'Invalid email or password';
+          this.successMessage = '';
+        } else {
+          this.error = '';
+         // this.$router.push(`/clients-profile/${response.data[0].id}`);
+          if(this.userRole==='client'){
+            this.$router.push(`/clients-profile/${response.data[0].id}`);
+
+          }
+          
+          else if (this.userRole==='nutritionist'){
+            this.$router.push(`/nutritionist-profile/${response.data[0].id}`);
+
+          }
+
+        }
+      } catch (err) {
+        this.error = 'Error logging in';
+        this.successMessage = '';
+      }
+    }
+  }
+};
+</script>
+
+
+
+
 <style scoped>
 .login-container {
   font-family: 'Poppins', sans-serif;
@@ -123,49 +182,4 @@ a {
 }
 </style>
 
-<script>
-import { fetchClientByCredentials as fetchClient } from '@/log-in/services/users-api.service.js';
-import { fetchNutritionistByCredentials as fetchNutritionist } from '@/log-in/services/users-api.service.js';
 
-export default {
-  data() {
-    return {
-      email: '',
-      password: '',
-      error: '',
-      successMessage: ''
-    };
-  },
-  props: {
-    userRole: {
-      type: String,
-      required: true
-    }
-  },
-  methods: {
-    async login() {
-      try {
-        let response;
-
-        if (this.userRole === 'client') {
-          response = await fetchClient(this.email, this.password);
-        } else if (this.userRole === 'nutritionist') {
-          response = await fetchNutritionist(this.email, this.password);
-        }
-
-        if (response.data.length === 0) {
-          this.error = 'Invalid email or password';
-          this.successMessage = '';
-        } else {
-          this.error = '';
-          this.$router.push(`/profile/${response.data[0].id}`);
-
-        }
-      } catch (err) {
-        this.error = 'Error logging in';
-        this.successMessage = '';
-      }
-    }
-  }
-};
-</script>

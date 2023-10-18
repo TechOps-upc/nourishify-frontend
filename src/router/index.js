@@ -5,58 +5,38 @@ import LogInFormComponent from "@/log-in/components/log-in-form.component.vue";
 import LogInClientsComponent from "@/log-in/pages/log-in-clients.component.vue";
 import LogInNutritionistComponent from "@/log-in/pages/log-in-nutritionist.component.vue";
 import HowLogInComponent from "@/public/pages/how-log-in.component.vue";
-import ToolbarComponent from "@/shared/components/toolbar.component.vue";
-import Profile from "@/profile/pages/profile.component.vue";
-import ProfileDataComponent from "@/profile/components/profile-data.component.vue";
-import profileDataComponent from "@/profile/components/profile-data.component.vue";
-import foodPlanComponent from "@/food-plan/pages/food-plan.component.vue";
+import ToolbarComponent from "@/shared/components/client-toolbar.component.vue";
 
+import ProfileDataComponent from "@/profile/components/clients-profile-data.component.vue";
+import profileDataComponent from "@/profile/components/clients-profile-data.component.vue";
+import foodPlanComponent from "@/food-plan/pages/food-plan.component.vue";
+import NutritionistToolbarComponent from "@/shared/components/nutritionist-toolbar.component.vue";
+import NutritionistProfileComponente from "@/profile/pages/nutritionist-profile.componente.vue";
+import ClientsProfileComponent from "@/profile/pages/clients-profile.component.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
     routes: [
-        {
-            path:"/",
-            component:HowLogInComponent,
-        },
 
-        {
-            path:"/header-content",
-            component:HeaderContent,
-        },
+        {path:"/", component:HowLogInComponent,},
 
-        {
-            path:"/how-sign-up",
-            component:HowSignUpComponent,
-        },
-        {
-            path:"/log-in-form",
-            component:LogInFormComponent
-        },
-        {
-            path:"/log-in-clients",
-            component:LogInClientsComponent
-        },
-        {
-            path:"/log-in-nutritionist",
-            component:LogInNutritionistComponent,
-        },
+        {path:"/header-content", component:HeaderContent,},
 
-        {
-            path:"/toolbar",
-            component:ToolbarComponent,
+        {path:"/how-sign-up", component:HowSignUpComponent,},
 
-        },
-        {
-            path:"/profile/:id",
-            component:Profile
+        {path:"/log-in-form", component:LogInFormComponent},
 
-        },
+        {path:"/log-in-clients", component:LogInClientsComponent},
+        {path:"/log-in-nutritionist", component:LogInNutritionistComponent,},
 
-        {
-            path:"/food-plan",
-            component:foodPlanComponent,
-        }
+        { path: "/toolbar", component: ToolbarComponent },
+        { path: "/toolbar-nutritionist", component: NutritionistToolbarComponent },
+        {path:"/clients-profile/:id", component:ClientsProfileComponent},
+
+        {path:"/food-plan", component:foodPlanComponent,},
+        {path:"/nutritionist-profile/:id", component:NutritionistProfileComponente,}
+
+
 
 
     ]
