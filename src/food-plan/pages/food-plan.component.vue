@@ -49,8 +49,8 @@
 </template>
 
 <script>
-import toolbarComponent from "@/shared/components/toolbar.component.vue";
-import profileDataComponent from "@/profile/components/profile-data.component.vue";
+import toolbarComponent from "@/shared/components/client-toolbar.component.vue";
+import profileDataComponent from "@/profile/components/clients-profile-data.component.vue";
 export default {
   name: 'SimpleFoodTable',
   components:{

@@ -65,17 +65,43 @@
     {
       "id": 1,
       "email": "nutritionist1@example.com",
-      "password": "nutri1234"
+      "password": "nutri1234",
+      "specialist": "nutritionist",
+      "full-name": "Rosa quispe",
+      "address": "Cl. Los Pinos 987, san miguel, Lima",
+      "phone": "987345678",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+
     },
     {
       "id": 2,
       "email": "nutritionist2@example.com",
-      "password": "nutri5678"
+      "password": "nutri5678",
+      "specialist": "nutritionist",
+      "full-name": "Juan Perez",
+      "address": "Av. Principal 123, Miraflores, Lima",
+      "phone": "987654321",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
     },
     {
       "id": 3,
       "email": "nutritionist3@example.com",
-      "password": "nutri9012"
+      "password": "nutri9999",
+      "specialist": "nutritionist",
+      "full-name": "Maria Rodriguez",
+      "address": "Jr. Lima 456, San Isidro, Lima",
+      "phone": "976543210",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 4,
+      "email": "nutritionist4@example.com",
+      "password": "nutri2022",
+      "specialist": "nutritionist",
+      "full-name": "Carlos Gutiérrez",
+      "address": "Av. Independencia 789, Breña, Lima",
+      "phone": "956789012",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
     }
   ],
   "foodPlan":{
