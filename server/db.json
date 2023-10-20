@@ -70,7 +70,8 @@
       "full-name": "Rosa quispe",
       "address": "Cl. Los Pinos 987, san miguel, Lima",
       "phone": "987345678",
-      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
+      "description": "description"
 
     },
     {
@@ -81,7 +82,8 @@
       "full-name": "Juan Perez",
       "address": "Av. Principal 123, Miraflores, Lima",
       "phone": "987654321",
-      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
+      "description": "description"
     },
     {
       "id": 3,
@@ -91,7 +93,8 @@
       "full-name": "Maria Rodriguez",
       "address": "Jr. Lima 456, San Isidro, Lima",
       "phone": "976543210",
-      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
+      "description": "description"
     },
     {
       "id": 4,
@@ -101,7 +104,8 @@
       "full-name": "Carlos Gutiérrez",
       "address": "Av. Independencia 789, Breña, Lima",
       "phone": "956789012",
-      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
+      "description": "description"
     }
   ],
   "foodPlan":{
