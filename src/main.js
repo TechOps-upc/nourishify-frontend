@@ -7,6 +7,8 @@ import 'primevue/resources/primevue.min.css';
 import 'primeicons/primeicons.css';
 // Add PrimeFlex
 import 'primeflex/primeflex.css';
+// Add PrimeIcons
+import 'primeicons/primeicons.css';
 // Add Components
 import Card from "primevue/card";
 import Button from "primevue/button";

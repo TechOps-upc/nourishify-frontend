@@ -2,13 +2,14 @@
   <h1 id="title">Select a Plan</h1>
   <div class="plan-card">
     <div v-for="plan in subscriptionPlans" :key="plan.id">
-      <pv-card>
+      <pv-card class="content">
         <template #header>
           <h3>{{ plan.name }}</h3>
           <h2>{{plan.price}}</h2>
+          <pv-divider></pv-divider>
         </template>
         <template #content>
-          <p v-for="perk in plan.perks" :key="perk.id">{{ perk }}</p>
+          <p v-for="perk in plan.perks" :key="perk.id"><i class="pi pi-check-square"></i> {{ perk }}</p>
         </template>
       </pv-card>
     </div>
@@ -40,10 +41,15 @@ export default {
 .plan-card {
   display: flex;
   justify-content: space-between;
-  margin: 0 2rem;
 }
 
 #title  {
   margin: 2rem;
 }
+
+.content {
+  padding: 0.5rem;
+  margin: 0 2rem;
+}
+
 </style>
