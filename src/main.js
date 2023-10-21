@@ -20,6 +20,7 @@ import DataTable from "primevue/datatable"
 import Column from 'primevue/column'
 import Steps from 'primevue/steps';
 import InputText from 'primevue/inputtext';
+import Divider from "primevue/divider";
 //Router
 import router from "@/router";
 
@@ -38,5 +39,6 @@ createApp(App)
     .component('pv-column', Column)
     .component('pv-steps', Steps)
     .component('pv-input-text', InputText)
+    .component('pv-divider', Divider)
     .use(router)
     .mount('#app')
