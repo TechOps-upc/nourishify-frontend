@@ -145,7 +145,53 @@
         "lunch": "Mixed barbecue, Baked potatoes, Coleslaw salad",
         "dinner": "Caesar salad, Garlic bread, Red fruit tea"
       }
-    }
+    },
+    "subscription-plans": [
+      {
+        "id": 1,
+        "name": "Nourishify Basic",
+        "price": 15,
+        "perks": [
+          "Horario de comida",
+          "Horario de ejercicio",
+          "Consultas con nutricionistas en vivo"
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Nourishify SlimDown",
+        "price": 35,
+        "perks": [
+          "Horario de comida",
+          "Horario de ejercicio",
+          "Consultas con nutricionistas en vivo",
+          "Recetas saludables"
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Nourishify MuscleGain",
+        "price": 35,
+        "perks": [
+          "Horario de comida",
+          "Horario de ejercicio",
+          "Consultas con nutricionistas en vivo",
+          "Seguimiento de progreso",
+          "Suplementos recomendados"
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Nourishify AthletePro",
+        "price": 60,
+        "perks": [
+          "Horario de comida",
+          "Horario de ejercicio",
+          "Consultas con nutricionistas en vivo",
+          "Análisis de rendimiento",
+          "Información sobre lesiones y rehabilitación"
+        ]
+      }
+    ]
   }
-
 }
