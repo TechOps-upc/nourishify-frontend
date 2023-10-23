@@ -16,7 +16,7 @@
       </div>
 
       <a href="#" class="forgot-link">I forgot my password</a>
-      <a href="/how-sign-up" class="signup-link">You do not have an account? Sign up</a>
+      <a href="/subscription-plans" class="signup-link">You do not have an account? Sign up</a>
 
       <p v-if="successMessage" class="success-message">{{ successMessage }}</p>
     </div>
