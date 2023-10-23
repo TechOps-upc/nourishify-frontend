@@ -107,8 +107,9 @@
       "description": "description"
     }
   ],
-  "foodPlan": {
-    "1": {
+  "food-plans": [
+    {
+      "id": 1,
       "monday": {
         "breakfast": "Oatmeal with fruits and honey, Low-fat yogurt, Green tea",
         "lunch": "Grilled chicken breast, Quinoa, Mixed salad with olive oil",
@@ -144,8 +145,49 @@
         "lunch": "Mixed barbecue, Baked potatoes, Coleslaw salad",
         "dinner": "Caesar salad, Garlic bread, Red fruit tea"
       }
+    },
+    {
+      "id": 2,
+      "monday": {
+        "breakfast": "Banana smoothie",
+        "lunch": "Chicken salad",
+        "dinner": "Veggie wrap"
+      },
+      "tuesday": {
+        "breakfast": "Berry juice",
+        "lunch": "Tofu stir-fry",
+        "dinner": "Fish tacos"
+      },
+      "wednesday": {
+        "breakfast": "Egg toast",
+        "lunch": "Shrimp salad",
+        "dinner": "Beef steak"
+      },
+      "thursday": {
+        "breakfast": "Chia pudding",
+        "lunch": "Veggie burger",
+        "dinner": "Salmon fillet"
+      },
+      "friday": {
+        "breakfast": "Apple cider",
+        "lunch": "Turkey wrap",
+        "dinner": "Veggie soup"
+      },
+      "saturday": {
+        "breakfast": "Omelette duo",
+        "lunch": "Beef skewers",
+        "dinner": "Shrimp pasta"
+      },
+      "sunday": {
+        "breakfast": "Pancake stack",
+        "lunch": "Fish grill",
+        "dinner": "Chicken roast"
+      }
     }
-  },
+
+  ],
+
+
   "subscription-plans": [
     {
       "id": 1,

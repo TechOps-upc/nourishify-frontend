@@ -1,6 +1,6 @@
 <template>
   <div class="flex space-x-2 justify-center">
-    <pv-button class="bg-green-500 hover:bg-green-600 text-white" icon="pi pi-arrow-right" @click="visibleLeft = true"></pv-button>
+    <pv-button class="bg-green-500 hover:bg-green-600 text-white" icon="pi pi-bars" @click="visibleLeft = true"></pv-button>
   </div>
   <div class="fixed inset-0 flex">
 
@@ -8,9 +8,8 @@
 
     <pv-sidebar v-model:visible="visibleLeft" :show-close-icon="false" class="h-screen w-64 bg-green-800 shadow-xl overflow-y-auto text-white rounded-lg">
 
-      <div class="flex items-center justify-between bg-green-700 p-4">
-        <div class="font-semibold">MENU</div>
-        <i class="pi pi-chevron-left cursor-pointer" @click="visibleLeft = false"></i>
+      <div class="flex items-center justify-between  p-4">
+        <i class="pi pi-fast-backward cursor-pointer hover:bg-green-600 transition duration-300 p-4 text-5xl" @click="visibleLeft = false"></i>
       </div>
 
       <router-link class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline" to="#">

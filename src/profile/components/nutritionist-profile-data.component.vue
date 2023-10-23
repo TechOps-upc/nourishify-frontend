@@ -1,4 +1,5 @@
 <template>
+
   <div class="nutritionist-profile-container">
     <!-- Nutricionista Foto -->
     <img :src="nutritionist.photo" alt="Nutritionist Photo" class="nutritionist-photo">

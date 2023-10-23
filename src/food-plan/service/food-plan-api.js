@@ -1,13 +1,8 @@
 import axios from 'axios';
+import http from "@/shared/services/http-common.js";
 
-const BASE_URL = 'http://localhost:3000'; // Asegúrate de que esta URL comienza con 'https://'.
-
-export const getFoodPlanById = async (id) => {
-    try {
-        const response = await axios.get(`${BASE_URL}/foodPlan/${id}`);
-        return response.data;
-    } catch (error) {
-        console.error("Error fetching the food plan:", error);
-        return null;
+export class FoodPlanApiService {
+    getAll() {
+        return http.get("food-plans");
     }
-};
+}
