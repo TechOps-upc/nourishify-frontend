@@ -187,6 +187,387 @@
 
   ],
 
+  "work-out-plans": [
+    {
+      "id": 1,
+      "monday": {
+        "muscle-group": "Chest and triceps",
+        "exercises": [
+          {
+            "name": "Bench press",
+            "sets": 4,
+            "reps": 10
+          },
+          {
+            "name": "Pull-over",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "name": "Dips",
+            "sets": 3,
+            "reps": 10
+          }
+        ]
+      },
+      "tuesday": {
+        "muscle-group": "Shoulder and biceps",
+        "exercises": [
+          {
+            "name": "Pull-ups",
+            "sets": 4,
+            "reps": 8
+          },
+          {
+            "name": "Barbell row",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Barbell biceps curl",
+            "sets": 3,
+            "reps": 12
+          }
+        ]
+      },
+      "wednesday": {
+        "muscle-group": "Shoulders and legs",
+        "exercises": [
+          {
+            "name": "Squats",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "name": "Leg press",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Military press",
+            "sets": 3,
+            "reps": 8
+          }
+        ]
+      },
+      "thursday": {
+        "muscle-group": "Chest and triceps",
+        "exercises": [
+          {
+            "name": "Incline Press",
+            "sets": 4,
+            "reps": 10
+          },
+          {
+            "name": "Pull-over",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "name": "Dips",
+            "sets": 3,
+            "reps": 10
+          }
+        ]
+      },
+      "friday":  {
+        "muscle-group": "Back and Biceps",
+        "exercises": [
+          {
+            "name": "Weighted pull-ups",
+            "sets": 4,
+            "reps": 6
+          },
+          {
+            "name": "Dumbbell Biceps Curl",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Hammer",
+            "sets": 3,
+            "reps": 12
+          }
+        ]
+      },
+      "saturday":  {
+        "muscle-group": "Shoulders and legs",
+        "exercises": [
+          {
+            "name": "Front squats",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "name": "Leg press",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Dumbbell military press",
+            "sets": 3,
+            "reps": 8
+          }
+        ]
+      },
+      "sunday": {
+        "rest-day": true
+      }
+    },
+    {
+      "id": 2,
+      "monday": {
+        "muscle-group": "Back and Biceps",
+        "exercises": [
+          {
+            "name": "Deadlift",
+            "sets": 4,
+            "reps": 6
+          },
+          {
+            "name": "Barbell Biceps Curl",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Hammer",
+            "sets": 3,
+            "reps": 12
+          }
+        ]
+      },
+      "tuesday": {
+        "muscle-group": "Legs",
+        "exercises": [
+          {
+            "name": "Squats",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "name": "Leg Press",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Lunges",
+            "sets": 3,
+            "reps": 12
+          }
+        ]
+      },
+      "wednesday": {
+        "muscle-group": "Chest and Triceps",
+        "exercises": [
+          {
+            "name": "Bench Press",
+            "sets": 4,
+            "reps": 10
+          },
+          {
+            "name": "Tricep Dips",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Cable Flyes",
+            "sets": 3,
+            "reps": 12
+          }
+        ]
+      },
+      "thursday": {
+        "muscle-group": "Shoulders and Back",
+        "exercises": [
+          {
+            "name": "Overhead Press",
+            "sets": 4,
+            "reps": 8
+          },
+          {
+            "name": "Pull-ups",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Face Pulls",
+            "sets": 3,
+            "reps": 12
+          }
+        ]
+      },
+      "friday": {
+        "muscle-group": "Legs",
+        "exercises": [
+          {
+            "name": "Leg Press",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "name": "Deadlift",
+            "sets": 3,
+            "reps": 8
+          },
+          {
+            "name": "Calf Raises",
+            "sets": 3,
+            "reps": 15
+          }
+        ]
+      },
+      "saturday": {
+        "muscle-group": "Arms",
+        "exercises": [
+          {
+            "name": "Barbell Biceps Curl",
+            "sets": 4,
+            "reps": 10
+          },
+          {
+            "name": "Skull Crushers",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Preacher Curls",
+            "sets": 3,
+            "reps": 12
+          }
+        ]
+      },
+      "sunday": {
+        "rest-day": true
+      }
+    },
+    {
+      "id": 3,
+      "monday": {
+        "muscle-group": "Chest and Triceps",
+        "exercises": [
+          {
+            "name": "Incline Bench Press",
+            "sets": 4,
+            "reps": 10
+          },
+          {
+            "name": "Tricep Pushdown",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "name": "Push-ups",
+            "sets": 3,
+            "reps": 15
+          }
+        ]
+      },
+      "tuesday": {
+        "muscle-group": "Back and Biceps",
+        "exercises": [
+          {
+            "name": "Pull-ups",
+            "sets": 4,
+            "reps": 8
+          },
+          {
+            "name": "Barbell Biceps Curl",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Hammer",
+            "sets": 3,
+            "reps": 12
+          }
+        ]
+      },
+      "wednesday": {
+        "muscle-group": "Legs",
+        "exercises": [
+          {
+            "name": "Squats",
+            "sets": 4,
+            "reps": 12
+          },
+          {
+            "name": "Leg Press",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Lunges",
+            "sets": 3,
+            "reps": 12
+          }
+        ]
+      },
+      "thursday": {
+        "muscle-group": "Shoulders and Abs",
+        "exercises": [
+          {
+            "name": "Military Press",
+            "sets": 4,
+            "reps": 8
+          },
+          {
+            "name": "Lateral Raises",
+            "sets": 3,
+            "reps": 12
+          },
+          {
+            "name": "Planks",
+            "sets": 3,
+            "reps": "max time"
+          }
+        ]
+      },
+      "friday": {
+        "muscle-group": "Chest and Back",
+        "exercises": [
+          {
+            "name": "Dumbbell Bench Press",
+            "sets": 4,
+            "reps": 10
+          },
+          {
+            "name": "Bent-Over Rows",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Push-ups",
+            "sets": 3,
+            "reps": 15
+          }
+        ]
+      },
+      "saturday": {
+        "muscle-group": "Legs",
+        "exercises": [
+          {
+            "name": "Deadlift",
+            "sets": 4,
+            "reps": 6
+          },
+          {
+            "name": "Leg Curls",
+            "sets": 3,
+            "reps": 10
+          },
+          {
+            "name": "Calf Raises",
+            "sets": 3,
+            "reps": 15
+          }
+        ]
+      },
+      "sunday": {
+        "rest-day": true
+      }
+    }
+  ],
+
 
   "subscription-plans": [
     {
