@@ -13,8 +13,8 @@ import foodPlanComponent from "@/food-plan/pages/food-plan.component.vue";
 import NutritionistToolbarComponent from "@/shared/components/nutritionist-toolbar.component.vue";
 import NutritionistProfileComponente from "@/profile/pages/nutritionist-profile.componente.vue";
 import ClientsProfileComponent from "@/profile/pages/clients-profile.component.vue";
-import SearchNutritionistComponent from "@/cliente-sidebar/search-nutritionist/pages/search-nutritionist.component.vue";
-import SearchNutritionistDataComponent from "@/cliente-sidebar/search-nutritionist/components/search-nutritionist-data.component.vue";
+import SearchNutritionistComponent from "@/client-sidebar/search-nutritionist/pages/search-nutritionist.component.vue";
+import SearchNutritionistDataComponent from "@/client-sidebar/search-nutritionist/components/search-nutritionist-data.component.vue";
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),

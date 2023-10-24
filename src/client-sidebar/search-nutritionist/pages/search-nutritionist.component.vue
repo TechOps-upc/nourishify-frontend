@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import SearchNutritionistDataComponent from "@/cliente-sidebar/search-nutritionist/components/search-nutritionist-data.component.vue";
+import SearchNutritionistDataComponent from "@/client-sidebar/search-nutritionist/components/search-nutritionist-data.component.vue";
 import toolbarComponent from "@/shared/components/client-toolbar.component.vue";
 
 export default {

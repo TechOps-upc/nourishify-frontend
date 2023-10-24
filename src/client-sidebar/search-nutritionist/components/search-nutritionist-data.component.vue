@@ -38,7 +38,7 @@
 </template>
 <script>
 
-import httpSearchNutritionist from "@/cliente-sidebar/search-nutritionist/service/http-search-nutritionist.js";
+import httpSearchNutritionist from "@/client-sidebar/search-nutritionist/service/http-search-nutritionist.js";
 export default {
   name: "SearchNutritionistData",
   data() {
