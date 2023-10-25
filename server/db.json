@@ -192,123 +192,39 @@
       "id": 1,
       "monday": {
         "muscle-group": "Chest and triceps",
-        "exercises": [
-          {
-            "name": "Bench press",
-            "sets": 4,
-            "reps": 10
-          },
-          {
-            "name": "Pull-over",
-            "sets": 3,
-            "reps": 12
-          },
-          {
-            "name": "Dips",
-            "sets": 3,
-            "reps": 10
-          }
-        ]
+        "exercise-1":"Bench press   4x10",
+        "exercise-2":"Pull-over     3x12",
+        "exercise-3":"Dips          3x10"
       },
       "tuesday": {
         "muscle-group": "Shoulder and biceps",
-        "exercises": [
-          {
-            "name": "Pull-ups",
-            "sets": 4,
-            "reps": 8
-          },
-          {
-            "name": "Barbell row",
-            "sets": 3,
-            "reps": 10
-          },
-          {
-            "name": "Barbell biceps curl",
-            "sets": 3,
-            "reps": 12
-          }
-        ]
+        "exercise-1":"Pull-ups      4x8 ",
+        "exercise-2":"Barbell row   3x10",
+        "exercise-3":"Barbell biceps curl 3x12"
       },
       "wednesday": {
         "muscle-group": "Shoulders and legs",
-        "exercises": [
-          {
-            "name": "Squats",
-            "sets": 4,
-            "reps": 12
-          },
-          {
-            "name": "Leg press",
-            "sets": 3,
-            "reps": 10
-          },
-          {
-            "name": "Military press",
-            "sets": 3,
-            "reps": 8
-          }
-        ]
+        "exercise-1":"Squats        4x12",
+        "exercise-2":"Leg press     3x10",
+        "exercise-3":"Military press 3x8"
       },
       "thursday": {
         "muscle-group": "Chest and triceps",
-        "exercises": [
-          {
-            "name": "Incline Press",
-            "sets": 4,
-            "reps": 10
-          },
-          {
-            "name": "Pull-over",
-            "sets": 3,
-            "reps": 12
-          },
-          {
-            "name": "Dips",
-            "sets": 3,
-            "reps": 10
-          }
-        ]
+        "exercise-1":"Incline Press 4x10",
+        "exercise-2":"Pull-over     3x12",
+        "exercise-3":"Dips          3x10"
       },
       "friday":  {
         "muscle-group": "Back and Biceps",
-        "exercises": [
-          {
-            "name": "Weighted pull-ups",
-            "sets": 4,
-            "reps": 6
-          },
-          {
-            "name": "Dumbbell Biceps Curl",
-            "sets": 3,
-            "reps": 10
-          },
-          {
-            "name": "Hammer",
-            "sets": 3,
-            "reps": 12
-          }
-        ]
+        "exercise-1":"Weighted pull-ups 4x6",
+        "exercise-2":"Dumbbell Biceps Curl 3x10",
+        "exercise-3":"Hammer        3x12"
       },
       "saturday":  {
         "muscle-group": "Shoulders and legs",
-        "exercises": [
-          {
-            "name": "Front squats",
-            "sets": 4,
-            "reps": 12
-          },
-          {
-            "name": "Leg press",
-            "sets": 3,
-            "reps": 10
-          },
-          {
-            "name": "Dumbbell military press",
-            "sets": 3,
-            "reps": 8
-          }
-        ]
+        "exercise-1":"Front squats  4x12",
+        "exercise-2":"Leg press     3x10",
+        "exercise-3":"Dumbbell military press 3x8"
       },
       "sunday": {
         "rest-day": true
@@ -318,123 +234,39 @@
       "id": 2,
       "monday": {
         "muscle-group": "Back and Biceps",
-        "exercises": [
-          {
-            "name": "Deadlift",
-            "sets": 4,
-            "reps": 6
-          },
-          {
-            "name": "Barbell Biceps Curl",
-            "sets": 3,
-            "reps": 10
-          },
-          {
-            "name": "Hammer",
-            "sets": 3,
-            "reps": 12
-          }
-        ]
+        "exercise-1":"Deadlift        4x6",
+        "exercise-2":"Barbell Biceps Curl 3x10",
+        "exercise-3":"Hammer          3x12"
       },
       "tuesday": {
         "muscle-group": "Legs",
-        "exercises": [
-          {
-            "name": "Squats",
-            "sets": 4,
-            "reps": 12
-          },
-          {
-            "name": "Leg Press",
-            "sets": 3,
-            "reps": 10
-          },
-          {
-            "name": "Lunges",
-            "sets": 3,
-            "reps": 12
-          }
-        ]
+        "exercise-1":"Squats        4x12",
+        "exercise-2":"Leg Press 3x10",
+        "exercise-3":"Lunges          3x12"
       },
       "wednesday": {
         "muscle-group": "Chest and Triceps",
-        "exercises": [
-          {
-            "name": "Bench Press",
-            "sets": 4,
-            "reps": 10
-          },
-          {
-            "name": "Tricep Dips",
-            "sets": 3,
-            "reps": 10
-          },
-          {
-            "name": "Cable Flyes",
-            "sets": 3,
-            "reps": 12
-          }
-        ]
+        "exercise-1":"Bench Press    4x10",
+        "exercise-2":"Tricep Dips    3x10",
+        "exercise-3":"Cable Flyes    3x12"
       },
       "thursday": {
         "muscle-group": "Shoulders and Back",
-        "exercises": [
-          {
-            "name": "Overhead Press",
-            "sets": 4,
-            "reps": 8
-          },
-          {
-            "name": "Pull-ups",
-            "sets": 3,
-            "reps": 10
-          },
-          {
-            "name": "Face Pulls",
-            "sets": 3,
-            "reps": 12
-          }
-        ]
+        "exercise-1":"Overhead Press  4x8",
+        "exercise-2":"Pull-ups       3x10",
+        "exercise-3":"Face Pulls     3x12"
       },
       "friday": {
         "muscle-group": "Legs",
-        "exercises": [
-          {
-            "name": "Leg Press",
-            "sets": 4,
-            "reps": 12
-          },
-          {
-            "name": "Deadlift",
-            "sets": 3,
-            "reps": 8
-          },
-          {
-            "name": "Calf Raises",
-            "sets": 3,
-            "reps": 15
-          }
-        ]
+        "exercise-1":"Leg Press     4x12",
+        "exercise-2":"Deadlift      3x8",
+        "exercise-3":"Calf Raises   3x15"
       },
       "saturday": {
         "muscle-group": "Arms",
-        "exercises": [
-          {
-            "name": "Barbell Biceps Curl",
-            "sets": 4,
-            "reps": 10
-          },
-          {
-            "name": "Skull Crushers",
-            "sets": 3,
-            "reps": 10
-          },
-          {
-            "name": "Preacher Curls",
-            "sets": 3,
-            "reps": 12
-          }
-        ]
+        "exercise-1":"Barbell Biceps Curl 4x10",
+        "exercise-2":"Skull Crushers      3x10",
+        "exercise-3":"Preacher Curls      3x12"
       },
       "sunday": {
         "rest-day": true
@@ -444,123 +276,39 @@
       "id": 3,
       "monday": {
         "muscle-group": "Chest and Triceps",
-        "exercises": [
-          {
-            "name": "Incline Bench Press",
-            "sets": 4,
-            "reps": 10
-          },
-          {
-            "name": "Tricep Pushdown",
-            "sets": 3,
-            "reps": 12
-          },
-          {
-            "name": "Push-ups",
-            "sets": 3,
-            "reps": 15
-          }
-        ]
+        "exercise-1":"Incline Bench Press 4x10",
+        "exercise-2":"Tricep Pushdown     3x12",
+        "exercise-3":"Push-ups            3x15"
       },
       "tuesday": {
         "muscle-group": "Back and Biceps",
-        "exercises": [
-          {
-            "name": "Pull-ups",
-            "sets": 4,
-            "reps": 8
-          },
-          {
-            "name": "Barbell Biceps Curl",
-            "sets": 3,
-            "reps": 10
-          },
-          {
-            "name": "Hammer",
-            "sets": 3,
-            "reps": 12
-          }
-        ]
+        "exercise-1":"Pull-ups       4x8",
+        "exercise-2":"Barbell Biceps Curl 3x10",
+        "exercise-3":"Hammer           3x12"
       },
       "wednesday": {
         "muscle-group": "Legs",
-        "exercises": [
-          {
-            "name": "Squats",
-            "sets": 4,
-            "reps": 12
-          },
-          {
-            "name": "Leg Press",
-            "sets": 3,
-            "reps": 10
-          },
-          {
-            "name": "Lunges",
-            "sets": 3,
-            "reps": 12
-          }
-        ]
+        "exercise-1":"Squats      4x12",
+        "exercise-2":"Leg Press   3x10",
+        "exercise-3":"Lunges      3x12"
       },
       "thursday": {
         "muscle-group": "Shoulders and Abs",
-        "exercises": [
-          {
-            "name": "Military Press",
-            "sets": 4,
-            "reps": 8
-          },
-          {
-            "name": "Lateral Raises",
-            "sets": 3,
-            "reps": 12
-          },
-          {
-            "name": "Planks",
-            "sets": 3,
-            "reps": "max time"
-          }
-        ]
+        "exercise-1":"Military Press 4x8",
+        "exercise-2":"Lateral Raises 3x12",
+        "exercise-3":"Planks      3x60''"
       },
       "friday": {
         "muscle-group": "Chest and Back",
-        "exercises": [
-          {
-            "name": "Dumbbell Bench Press",
-            "sets": 4,
-            "reps": 10
-          },
-          {
-            "name": "Bent-Over Rows",
-            "sets": 3,
-            "reps": 10
-          },
-          {
-            "name": "Push-ups",
-            "sets": 3,
-            "reps": 15
-          }
-        ]
+        "exercise-1":"Dumbbell Bench Press 4x10",
+        "exercise-2":"Bent-Over Rows 3x10",
+        "exercise-3":"Push-ups       3x15"
       },
       "saturday": {
         "muscle-group": "Legs",
-        "exercises": [
-          {
-            "name": "Deadlift",
-            "sets": 4,
-            "reps": 6
-          },
-          {
-            "name": "Leg Curls",
-            "sets": 3,
-            "reps": 10
-          },
-          {
-            "name": "Calf Raises",
-            "sets": 3,
-            "reps": 15
-          }
-        ]
+        "exercise-1":"Deadlift       4x6",
+        "exercise-2":"Leg Curls     3x10",
+        "exercise-3":"Calf Raises   3x15"
       },
       "sunday": {
         "rest-day": true

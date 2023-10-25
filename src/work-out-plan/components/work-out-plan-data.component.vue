@@ -33,6 +33,7 @@ export default {
       try{
         const response = await new WorkOutPlanApiService().getAll();
         this.workOutPlan = response.data.find(plan => plan.id === Number(this.id)) || {};
+        this.exercisePlan = response.data.find(plan => plan.name === String(this.name)) || {};
         this.buildTableData();
       } catch (error) {
         console.error('Error obteniendo plan de entrenamiento:', error);
@@ -40,7 +41,7 @@ export default {
     },
 
     buildTableData(){
-      const rows = ['muscle-group', 'exercises']
+      const rows = ['muscle-group', 'exercise-1', 'exercise-2', 'exercise-3']
 
       this.tableData = rows.map(row => {
         return {
@@ -50,7 +51,7 @@ export default {
           thursday: this.workOutPlan.thursday ? this.workOutPlan.thursday[row] : '',
           friday: this.workOutPlan.friday ? this.workOutPlan.friday[row] : '',
           saturday: this.workOutPlan.saturday ? this.workOutPlan.saturday[row] : '',
-          sunday: this.workOutPlan.sunday ? this.workOutPlan.sunday[row] : ''
+          sunday: this.workOutPlan.sunday ? this.workOutPlan.sunday[row] : 'RestDay'
         };
       });
 
