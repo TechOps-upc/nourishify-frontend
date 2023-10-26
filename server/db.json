@@ -71,7 +71,11 @@
       "address": "Cl. Los Pinos 987, san miguel, Lima",
       "phone": "987345678",
       "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
-      "description": "description"
+      "description": "description",
+      "experience_years": 5,
+      "age": 32,
+      "patients": 150,
+      "education": "Bachillerato en Nutrición en la UPC, Especialización en..."
     },
     {
       "id": 2,
@@ -82,7 +86,11 @@
       "address": "Av. Principal 123, Miraflores, Lima",
       "phone": "987654321",
       "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
-      "description": "description"
+      "description": "description",
+      "experience_years": 5,
+      "age": 32,
+      "patients": 150,
+      "education": "Bachillerato en Nutrición en la UPC, Especialización en..."
     },
     {
       "id": 3,
@@ -93,7 +101,11 @@
       "address": "Jr. Lima 456, San Isidro, Lima",
       "phone": "976543210",
       "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
-      "description": "description"
+      "description": "description",
+      "experience_years": 5,
+      "age": 32,
+      "patients": 150,
+      "education": "Bachillerato en Nutrición en la UPC, Especialización en..."
     },
     {
       "id": 4,
@@ -104,7 +116,11 @@
       "address": "Av. Independencia 789, Breña, Lima",
       "phone": "956789012",
       "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
-      "description": "description"
+      "description": "description",
+      "experience_years": 5,
+      "age": 32,
+      "patients": 150,
+      "education": "Bachillerato en Nutrición en la UPC, Especialización en..."
     }
   ],
   "food-plans": [

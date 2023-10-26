@@ -28,8 +28,14 @@
               <p>{{nutritionist.description}}</p>
             </div>
           </div>
+
+
+
           <div class="p-card-actions">
-            <button class="p-button p-button-primary">See More</button>
+            <!-- Usamos una estructura similar para pasar el ID del nutricionista como parámetro -->
+            <router-link :to="{ name: 'ProfessionalProfile', params: { id: nutritionist.id } }">
+              <button class="p-button p-button-primary">See More</button>
+            </router-link>
           </div>
         </div>
       </div>

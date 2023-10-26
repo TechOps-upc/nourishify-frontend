@@ -26,7 +26,7 @@
         Food plan
       </router-link>
 
-      <router-link class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline" to="/search-date">
+      <router-link class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline" to="/search-nutritionist">
         <i class="pi pi-search mr-3"></i>
         Search a Date
       </router-link>
