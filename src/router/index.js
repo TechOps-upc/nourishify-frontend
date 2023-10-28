@@ -13,6 +13,8 @@ import ClientsProfileComponent from "@/profile/pages/clients-profile.component.v
 import SearchNutritionistComponent from "@/cliente-sidebar/search-nutritionist/pages/search-nutritionist.component.vue";
 import SubscriptionPlans from "@/subscription-plans/pages/subscription-plan.component.vue";
 import RegisterFormPageComponent from "@/register-form/pages/register-form-page.component.vue";
+import ProfessionalProfileComponent from "@/cliente-sidebar/search-nutritionist/pages/professional-Profile.component.vue";
+
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -39,7 +41,10 @@ const router = createRouter({
         {path:"/search-nutritionist", component:SearchNutritionistComponent},
 
         {path:"/subscription-plans", component:SubscriptionPlans},
-        {path:"/register-form", component:RegisterFormPageComponent}
+        {path:"/register-form", component:RegisterFormPageComponent},
+        //{path:" /professional-profile", component:ProfessionalProfileComponent}
+
+       {path: "/professional-profile/:id", name: "ProfessionalProfile", component: ProfessionalProfileComponent,},
 
     ]
 });
