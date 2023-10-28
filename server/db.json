@@ -203,6 +203,135 @@
 
   ],
 
+  "work-out-plans": [
+    {
+      "id": 1,
+      "monday": {
+        "muscle-group": "Chest and triceps",
+        "exercise-1":"Bench press   4x10",
+        "exercise-2":"Pull-over     3x12",
+        "exercise-3":"Dips          3x10"
+      },
+      "tuesday": {
+        "muscle-group": "Shoulder and biceps",
+        "exercise-1":"Pull-ups      4x8 ",
+        "exercise-2":"Barbell row   3x10",
+        "exercise-3":"Barbell biceps curl 3x12"
+      },
+      "wednesday": {
+        "muscle-group": "Shoulders and legs",
+        "exercise-1":"Squats        4x12",
+        "exercise-2":"Leg press     3x10",
+        "exercise-3":"Military press 3x8"
+      },
+      "thursday": {
+        "muscle-group": "Chest and triceps",
+        "exercise-1":"Incline Press 4x10",
+        "exercise-2":"Pull-over     3x12",
+        "exercise-3":"Dips          3x10"
+      },
+      "friday":  {
+        "muscle-group": "Back and Biceps",
+        "exercise-1":"Weighted pull-ups 4x6",
+        "exercise-2":"Dumbbell Biceps Curl 3x10",
+        "exercise-3":"Hammer        3x12"
+      },
+      "saturday":  {
+        "muscle-group": "Shoulders and legs",
+        "exercise-1":"Front squats  4x12",
+        "exercise-2":"Leg press     3x10",
+        "exercise-3":"Dumbbell military press 3x8"
+      },
+      "sunday": {
+        "rest-day": true
+      }
+    },
+    {
+      "id": 2,
+      "monday": {
+        "muscle-group": "Back and Biceps",
+        "exercise-1":"Deadlift        4x6",
+        "exercise-2":"Barbell Biceps Curl 3x10",
+        "exercise-3":"Hammer          3x12"
+      },
+      "tuesday": {
+        "muscle-group": "Legs",
+        "exercise-1":"Squats        4x12",
+        "exercise-2":"Leg Press 3x10",
+        "exercise-3":"Lunges          3x12"
+      },
+      "wednesday": {
+        "muscle-group": "Chest and Triceps",
+        "exercise-1":"Bench Press    4x10",
+        "exercise-2":"Tricep Dips    3x10",
+        "exercise-3":"Cable Flyes    3x12"
+      },
+      "thursday": {
+        "muscle-group": "Shoulders and Back",
+        "exercise-1":"Overhead Press  4x8",
+        "exercise-2":"Pull-ups       3x10",
+        "exercise-3":"Face Pulls     3x12"
+      },
+      "friday": {
+        "muscle-group": "Legs",
+        "exercise-1":"Leg Press     4x12",
+        "exercise-2":"Deadlift      3x8",
+        "exercise-3":"Calf Raises   3x15"
+      },
+      "saturday": {
+        "muscle-group": "Arms",
+        "exercise-1":"Barbell Biceps Curl 4x10",
+        "exercise-2":"Skull Crushers      3x10",
+        "exercise-3":"Preacher Curls      3x12"
+      },
+      "sunday": {
+        "rest-day": true
+      }
+    },
+    {
+      "id": 3,
+      "monday": {
+        "muscle-group": "Chest and Triceps",
+        "exercise-1":"Incline Bench Press 4x10",
+        "exercise-2":"Tricep Pushdown     3x12",
+        "exercise-3":"Push-ups            3x15"
+      },
+      "tuesday": {
+        "muscle-group": "Back and Biceps",
+        "exercise-1":"Pull-ups       4x8",
+        "exercise-2":"Barbell Biceps Curl 3x10",
+        "exercise-3":"Hammer           3x12"
+      },
+      "wednesday": {
+        "muscle-group": "Legs",
+        "exercise-1":"Squats      4x12",
+        "exercise-2":"Leg Press   3x10",
+        "exercise-3":"Lunges      3x12"
+      },
+      "thursday": {
+        "muscle-group": "Shoulders and Abs",
+        "exercise-1":"Military Press 4x8",
+        "exercise-2":"Lateral Raises 3x12",
+        "exercise-3":"Planks      3x60''"
+      },
+      "friday": {
+        "muscle-group": "Chest and Back",
+        "exercise-1":"Dumbbell Bench Press 4x10",
+        "exercise-2":"Bent-Over Rows 3x10",
+        "exercise-3":"Push-ups       3x15"
+      },
+      "saturday": {
+        "muscle-group": "Legs",
+        "exercise-1":"Deadlift       4x6",
+        "exercise-2":"Leg Curls     3x10",
+        "exercise-3":"Calf Raises   3x15"
+      },
+      "sunday": {
+        "rest-day": true
+      }
+    }
+  ],
+
 
   "subscription-plans": [
     {

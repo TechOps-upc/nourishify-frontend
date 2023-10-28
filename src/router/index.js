@@ -13,6 +13,7 @@ import ClientsProfileComponent from "@/profile/pages/clients-profile.component.v
 import SearchNutritionistComponent from "@/cliente-sidebar/search-nutritionist/pages/search-nutritionist.component.vue";
 import SubscriptionPlans from "@/subscription-plans/pages/subscription-plan.component.vue";
 import RegisterFormPageComponent from "@/register-form/pages/register-form-page.component.vue";
+import workOutPlanComponent from "@/work-out-plan/pages/work-out-plan.component.vue";
 import ProfessionalProfileComponent from "@/cliente-sidebar/search-nutritionist/pages/professional-Profile.component.vue";
 
 
@@ -37,6 +38,8 @@ const router = createRouter({
 
         {path:"/food-plan/:id", component:foodPlanComponent,},
         {path:"/nutritionist-profile/:id", component:NutritionistProfileComponente,},
+        {path:"/work-out-plan/:id", component:workOutPlanComponent,},
+
 
         {path:"/search-nutritionist", component:SearchNutritionistComponent},
 
