@@ -23,9 +23,13 @@ import InputText from 'primevue/inputtext';
 //Router
 import router from "@/router";
 
+//I18n
+import {i18n} from "./i18n.js";
+
 
 createApp(App)
     .use(PrimeVue, { ripple: true })
+    .use(i18n)
     .component('pv-card', Card)
     .component('pv-button', Button)
     .component('pv-select-button', SelectButton)
