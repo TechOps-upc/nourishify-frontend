@@ -20,6 +20,8 @@ import DataTable from "primevue/datatable"
 import Column from 'primevue/column'
 import Steps from 'primevue/steps';
 import InputText from 'primevue/inputtext';
+import Dropdown from "primevue/dropdown";
+
 //Router
 import router from "@/router";
 
@@ -42,5 +44,6 @@ createApp(App)
     .component('pv-column', Column)
     .component('pv-steps', Steps)
     .component('pv-input-text', InputText)
+    .component('pv-dropdown', Dropdown)
     .use(router)
     .mount('#app')
