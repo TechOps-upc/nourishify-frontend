@@ -44,6 +44,11 @@ export default {
         currency: 'USD',
       }).format(price);
     },
+  },
+  methods: {
+    subscribe(plan) {
+      this.$router.push({ name: "payment", params: { selectedPlan: plan } });
+    }
   }
 }
 
