@@ -1,13 +1,10 @@
 <template>
-
-  <div class="inline form">
-    <div class="full m-5">
-      <h1>Proceed with the payment</h1>
-      <h3>Nombre del titular:</h3>
-      <pv-input-text id="float-input" type="text" class="w-full"/>
-    </div>
+  <div class="form m-5 w-max">
+    <h1>Proceed with the payment</h1>
+    <h3>Nombre del titular:</h3>
+    <pv-input-text id="float-input" type="text" class="w-full"/>
   </div>
-  <div class="inline card m-5">
+  <div class="card m-5">
     <pv-card class="content p-5 w-max">
       <template #header>
         <h3>{{ PaymentPlan.name }}</h3>
@@ -18,9 +15,6 @@
         <p v-for="perk in PaymentPlan.perks" :key="PaymentPlan.id"><i class="pi pi-check-square"></i>
           {{ perk }}
         </p>
-        <router-link :to="'payment/' + PaymentPlan.id">
-          <pv-button class="btn w-full" label="Comenzar prueba"></pv-button>
-        </router-link>
       </template>
     </pv-card>
   </div>
