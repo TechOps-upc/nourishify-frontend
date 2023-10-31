@@ -1,22 +1,41 @@
 <template>
-  <div class="form m-5 w-max">
-    <h1>Proceed with the payment</h1>
-    <h3>Nombre del titular:</h3>
-    <pv-input-text id="float-input" type="text" class="w-full"/>
-  </div>
-  <div class="card m-5">
-    <pv-card class="content p-5 w-max">
-      <template #header>
-        <h3>{{ PaymentPlan.name }}</h3>
-        <h2>{{ formattedPrice(PaymentPlan.price) }}</h2>
-        <pv-divider></pv-divider>
-      </template>
-      <template #content>
-        <p v-for="perk in PaymentPlan.perks" :key="PaymentPlan.id"><i class="pi pi-check-square"></i>
-          {{ perk }}
-        </p>
-      </template>
-    </pv-card>
+  <div class="flex">
+    <div class="form m-5 w-max flex-wrap">
+      <h1>Proceed with the payment</h1>
+      <h3>Nombre del titular:</h3>
+      <pv-input-text id="float-input" type="text" class="w-full"/>
+      <h3>Numero de tarjeta:</h3>
+      <pv-input-number id="float-input" class="w-full" :useGrouping="false" inputId="minmax" :min="1000000000000000" :max="9999999999999999"/>
+      <div class="flex gap-3">
+        <div class="flex-wrap">
+          <h3>Fecha de vencimiento:</h3>
+          <pv-input-text id="float-input" type="text" class="w-full" />
+        </div>
+        <div class="flex-wrap">
+          <h3>Numero de tarjeta:</h3>
+          <pv-input-number id="float-input" class="w-full" :useGrouping="false" inputId="minmax" :min="100" :max="9999" />
+        </div>
+      </div>
+      <h3>Correo electronico:</h3>
+      <pv-input-text id="float-input" type="email" class="w-full" />
+      <router-link :to="'/'">
+        <pv-button class="btn w-max" label="Confirmar"></pv-button>
+      </router-link>
+    </div>
+    <div class="card m-5 flex-wrap">
+      <pv-card class="content p-5 w-max">
+        <template #header>
+          <h3>{{ PaymentPlan.name }}</h3>
+          <h2>{{ formattedPrice(PaymentPlan.price) }}</h2>
+          <pv-divider></pv-divider>
+        </template>
+        <template #content>
+          <p v-for="perk in PaymentPlan.perks" :key="PaymentPlan.id"><i class="pi pi-check-square"></i>
+            {{ perk }}
+          </p>
+        </template>
+      </pv-card>
+    </div>
   </div>
 </template>
 
@@ -57,13 +76,14 @@ export default {
   color: #fff;
   margin-top: 2rem;
   font-weight: bold;
+  max-width: 25vw;
 }
 
 .form {
-  max-width: 50%;
+  max-width: 50vw;
 }
 
 .card {
-  max-width: 50%;
+  max-width: 50vw;
 }
 </style>
