@@ -23,6 +23,7 @@ import Column from 'primevue/column'
 import Steps from 'primevue/steps';
 import InputText from 'primevue/inputtext';
 import Divider from "primevue/divider";
+import InputNumber from "primevue/inputnumber";
 //Router
 import router from "@/router";
 
@@ -41,6 +42,7 @@ createApp(App)
     .component('pv-column', Column)
     .component('pv-steps', Steps)
     .component('pv-input-text', InputText)
+    .component('pv-input-number', InputNumber)
     .component('pv-divider', Divider)
     .use(router)
     .mount('#app')

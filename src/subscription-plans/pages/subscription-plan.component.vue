@@ -12,7 +12,9 @@
           <template #content>
             <p v-for="perk in plan.perks" :key="perk.id" class="m-0 p-0"><i class="pi pi-check-square"></i> {{ perk }}
             </p>
-            <pv-button label="Comenzar prueba" @click="" class="btn" rounded></pv-button>
+            <router-link :to="'payment/' + plan.id">
+              <pv-button class="btn" label="Comenzar prueba"></pv-button>
+            </router-link>
           </template>
         </pv-card>
       </div>
@@ -44,7 +46,7 @@ export default {
         currency: 'USD',
       }).format(price);
     },
-  }
+  },
 }
 
 </script>
@@ -76,6 +78,5 @@ export default {
   color: #fff;
   margin-top: 2rem;
   font-weight: bold;
-
 }
 </style>
