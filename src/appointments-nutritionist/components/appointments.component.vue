@@ -52,13 +52,13 @@
 
 .btn-see-progress:hover {
   border: 1px solid white;
-  background-color: #2F855A; /* Color específico para el hover */
+  background-color: #117a45;
 }
 </style>
 
 <script>
 export default {
   props: ['client']
-  // Si no tienes métodos adicionales, puedes omitir la sección "methods"
+
 }
 </script>

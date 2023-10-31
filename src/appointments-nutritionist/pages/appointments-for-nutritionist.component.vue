@@ -15,13 +15,13 @@
 <script>
 import appointmentComponent from '../components/appointments.component.vue'
 import http from '../service/appnutri-api.service.js'
-import nutritionistToolbarComponent from "@/shared/components/nutritionist-toolbar.component.vue";
-import NutritionistToolbar from "@/shared/components/client-toolbar.component.vue";
+import nutritionistToolbar from "@/shared/components/nutritionist-toolbar.component.vue";
+
 export default {
   components: {
-    NutritionistToolbar,
+    nutritionistToolbar,
     appointmentComponent,
-    nutritionistToolbarComponent
+
   },
   data() {
     return {
@@ -39,7 +39,8 @@ export default {
       // Implementa aquí la lógica para visualizar el progreso del cliente
     },
     fetchNutritionistData() {
-      http.get('/nutritionists/1').then(response => {
+      const nutritionistId=this.$route.params.id;
+      http.get(`/nutritionists/${nutritionistId}`).then(response => {
         this.nutritionist = response.data;
       })
     },
