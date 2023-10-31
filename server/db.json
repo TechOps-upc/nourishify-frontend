@@ -74,7 +74,9 @@
       "description": "description",
       "experience_years": 5,
       "age": 32,
-      "patients": 150,
+      "patients":[
+        1,2,3
+      ],
       "education": "Bachillerato en Nutrición en la UPC, Especialización en..."
     },
     {
@@ -89,7 +91,9 @@
       "description": "description",
       "experience_years": 5,
       "age": 32,
-      "patients": 150,
+      "patients": [
+        4,5,6
+      ],
       "education": "Bachillerato en Nutrición en la UPC, Especialización en..."
     },
     {

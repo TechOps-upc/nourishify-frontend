@@ -17,9 +17,9 @@
         Profile
       </router-link>
 
-      <router-link class="block mt-4 mb-2 p-3 rounded-lg text-white font-semibold hover:bg-green-600 transition duration-300 no-underline" to="/appointments">
+      <router-link class="block mt-4 mb-2 p-3 rounded-lg text-white font-semibold hover:bg-green-600 transition duration-300 no-underline" to="/appointments-for-nutritionist/1">
         <i class="pi pi-calendar mr-3"></i>
-        Clients Plans
+        Appointments
       </router-link>
 
       <router-link class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline" to="/nutritionist-plans">
