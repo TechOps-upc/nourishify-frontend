@@ -3,24 +3,26 @@
     <div class="form m-5 w-max flex-wrap">
       <h1>Proceed with the payment</h1>
       <h3>Nombre del titular:</h3>
-      <pv-input-text id="float-input" type="text" class="w-full"/>
+      <pv-input-text id="float-input" type="text" class="w-full" v-model="PaymentInfo.name"/>
       <h3>Numero de tarjeta:</h3>
-      <pv-input-number id="float-input" class="w-full" :useGrouping="false" inputId="minmax" :min="1000000000000000" :max="9999999999999999"/>
+      <pv-input-number id="float-input" class="w-full" v-model="PaymentInfo.cardNumber" :useGrouping="false" inputId="minmax" :min="1000000000000000" :max="9999999999999999"/>
       <div class="flex gap-3">
         <div class="flex-wrap">
           <h3>Fecha de vencimiento:</h3>
-          <pv-input-text id="float-input" type="text" class="w-full" />
+          <pv-input-text id="float-input" type="text" class="w-full" v-model="PaymentInfo.expirationDate" />
         </div>
         <div class="flex-wrap">
-          <h3>Numero de tarjeta:</h3>
-          <pv-input-number id="float-input" class="w-full" :useGrouping="false" inputId="minmax" :min="100" :max="9999" />
+          <h3>Codigo de seguridad:</h3>
+          <pv-input-number id="float-input" class="w-full" v-model="PaymentInfo.cvv" :useGrouping="false" inputId="minmax" :min="100" :max="9999" />
         </div>
       </div>
       <h3>Correo electronico:</h3>
-      <pv-input-text id="float-input" type="email" class="w-full" />
-      <router-link :to="'/'">
-        <pv-button class="btn w-max" label="Confirmar"></pv-button>
+      <pv-input-text id="float-input" type="email" class="w-full" v-model="PaymentInfo.email"/>
+
+      <router-link :to="'/register-form'">
+        <pv-button class="btn w-max" label="Confirmar" @click="logPaymentInfo" />
       </router-link>
+
     </div>
     <div class="card m-5 flex-wrap">
       <pv-card class="content p-5 w-max">
@@ -41,6 +43,7 @@
 
 <script>
 import {PaymentApiService} from "../service/payment-api.service.js";
+import {PaymentInformation} from "../model/payment-information.entity.js";
 
 export default {
   name: 'payment',
@@ -48,6 +51,7 @@ export default {
   components: {},
   data() {
     return {
+      PaymentInfo: new PaymentInformation(),
       PaymentPlan: {}
     }
   },
@@ -67,6 +71,11 @@ export default {
       }).format(price);
     },
   },
+  methods:{
+    logPaymentInfo() {
+      console.log(this.PaymentInfo)
+    }
+  }
 }
 </script>
 
