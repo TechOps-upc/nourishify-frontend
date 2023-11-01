@@ -26,7 +26,7 @@ import Dropdown from "primevue/dropdown";
 import router from "@/router";
 
 //I18n
-import {i18n} from "./i18n.js";
+import { i18n } from "./i18n.js";
 
 
 createApp(App)

@@ -1,3 +1,6 @@
 {
-
+  "hello": "holaaaaa",
+  "how-sign-up": {
+    "How would you like to sign in?": "¿Cómo le gustaría acceder?"
+  }
 }

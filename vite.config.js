@@ -6,6 +6,7 @@ import { dirname, resolve } from "node:path";
 
 
 // https://vitejs.dev/config/
+
 export default defineConfig({
   plugins: [
       vue(),
@@ -14,7 +15,7 @@ export default defineConfig({
             dirname(fileURLToPath(import.meta.url)),
             "./src/locales/**"
         ),
-      })
+      }),
   ],
   resolve:{
     alias:{

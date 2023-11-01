@@ -1,3 +1,13 @@
 {
-
+  "hello": "hellooooo",
+  "how-sign-up": {
+    "how-would-you-like-to-sign-in?": "How would you like to sign in?",
+    "client": "Client",
+    "nutritionist": "Nutritionist"
+  },
+  "how-log-in" : {
+    "how-would-you-like-to-log-in?" : "How would you like to log in?",
+    "client": "Client",
+    "nutritionist": "Nutritionist"
+  }
 }
