@@ -11,7 +11,9 @@
       <div class="flex items-center justify-between  p-4">
         <i class="pi pi-fast-backward cursor-pointer hover:bg-green-600 transition duration-300 p-4 text-5xl" @click="visibleLeft = false"></i>
       </div>
-      <router-link class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline" to="#">
+      <router-link
+          :to="'/clients-profile/' + clientId"
+          class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline">
         <i class="pi pi-user mr-3"></i>
         Profile
       </router-link>
@@ -21,12 +23,22 @@
         Appointments
       </router-link>
 
-      <router-link class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline" to="/food-plan/1">
+      <router-link
+          :to="'/food-plan/' + clientId"
+          class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline">
         <i class="pi pi-chart-bar mr-3"></i>
         Food plan
       </router-link>
+      <router-link
+          :to="'/work-out-plan/' + clientId"
+          class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline">
+        <i class="pi pi-chart-bar mr-3"></i>
+        Work out plan
+      </router-link>
 
-      <router-link class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline" to="/search-nutritionist">
+      <router-link
+          :to="'/search-nutritionist/'+ clientId"
+          class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline" >
         <i class="pi pi-search mr-3"></i>
         Search a Date
       </router-link>
@@ -43,7 +55,12 @@
 
 <script>
 export default {
-  name: 'Nutritionist-Toolbar',
+  name: 'Client-Toolbar',
+  computed: {
+    clientId() {
+      return this.$route.params.id; // Asume que el ID está disponible como un parámetro "id" en la URL
+    }
+  },
   methods: {
     logout() {
       this.$router.push('/');
