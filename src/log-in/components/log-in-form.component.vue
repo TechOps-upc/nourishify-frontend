@@ -1,22 +1,22 @@
 <template>
   <div class="login-container">
     <div class="login-box">
-      <h2 class="login-title" >Log In</h2>
+      <h2 class="login-title" >{{ $t("log-in-form.log-in") }}</h2>
 
-      <label for="email">User/Email</label>
+      <label for="email">{{ $t("log-in-form.user-email") }}</label>
       <input id="email" v-model="email" placeholder="Email">
 
-      <label for="password">Password</label>
+      <label for="password">{{ $t("log-in-form.password") }}</label>
       <input id="password" type="password" v-model="password" placeholder="Password">
       <div class="button-message-container">
         <div class="button-container">
-          <button @click="login">Log In</button>
+          <button @click="login">{{ $t("log-in-form.log-in") }}</button>
         </div>
         <p v-if="error" class="error-message">{{ error }}</p>
       </div>
 
-      <a href="#" class="forgot-link">I forgot my password</a>
-      <a href="/how-sign-up" class="signup-link">You do not have an account? Sign up</a>
+      <a href="#" class="forgot-link">{{ $t("log-in-form.forgot-password") }}</a>
+      <a href="/how-sign-up" class="signup-link">{{ $t("log-in-form.create-account") }}</a>
 
       <p v-if="successMessage" class="success-message">{{ successMessage }}</p>
     </div>

@@ -32,13 +32,13 @@ import { getUserById } from '../service/users-data-api.service.js';
     <!-- Datos del Cliente -->
     <div class="data-container">
       <div class="column-container">
-        <div class="data-box"><strong>Full Name:</strong> {{ user["full-name"] }}</div>
-        <div class="data-box"><strong>Address:</strong> {{ user.address }}</div>
-        <div class="data-box"><strong>Email:</strong> {{ user.email }}</div>
+        <div class="data-box"><strong>{{ $t("profile.full-name") }}</strong> {{ user["full-name"] }}</div>
+        <div class="data-box"><strong>{{ $t("profile.address") }}</strong> {{ user.address }}</div>
+        <div class="data-box"><strong>{{ $t("profile.email") }}</strong> {{ user.email }}</div>
       </div>
       <div class="column-container">
-        <div class="data-box"><strong>Phone:</strong> {{ user.phone }}</div>
-        <div class="data-box"><strong>Plan:</strong> {{ user.plan }}</div>
+        <div class="data-box"><strong>{{ $t("profile.phone") }}</strong> {{ user.phone }}</div>
+        <div class="data-box"><strong>{{ $t("profile.plan") }}</strong> {{ user.plan }}</div>
       </div>
     </div>
   </div>

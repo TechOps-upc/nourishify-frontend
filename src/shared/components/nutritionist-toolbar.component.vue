@@ -1,11 +1,11 @@
 <template>
   <div class="toolbar">
-    <router-link class="section" to="#">Profile de nutricionista</router-link>
-    <router-link class="section" to="/appointments">Appointments</router-link>
-    <router-link class="section" to="/nutritionist-plans">My Nutritionist Plans</router-link>
-    <router-link class="section" to="/search-date">Search a Date</router-link>
+    <router-link class="section" to="#">{{ $t("toolbar.profile-nutritionist") }}</router-link>
+    <router-link class="section" to="/appointments">{{ $t("toolbar.appointments") }}</router-link>
+    <router-link class="section" to="/nutritionist-plans">{{ $t("toolbar.my-nutritionist-plans") }}</router-link>
+    <router-link class="section" to="/search-date">m{{ $t("toolbar.search-a-date") }}</router-link>
 
-    <div class="logout-section" @click="logout">Logout</div>
+    <div class="logout-section" @click="logout">{{ $t("toolbar.log-out") }}</div>
   </div>
 </template>
 
