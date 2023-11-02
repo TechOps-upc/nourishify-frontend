@@ -59,6 +59,126 @@
       "phone": "987345678",
       "plan": "Nourishify SlimDown",
       "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 7,
+      "email": "client7@example.com",
+      "password": "client7245",
+      "full-name": "Isabel Ortiz",
+      "address": "Cl. Los Cedros 123, Lince, Lima",
+      "phone": "987456123",
+      "plan": "Nourishify Basic",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 8,
+      "email": "client8@example.com",
+      "password": "client8291",
+      "full-name": "Miguel Torres",
+      "address": "Av. Universitaria 789, San Miguel, Lima",
+      "phone": "987567890",
+      "plan": "Nourishify SlimDown",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 9,
+      "email": "client9@example.com",
+      "password": "client9145",
+      "full-name": "Sofia Valdez",
+      "address": "Av. Primavera 456, San Borja, Lima",
+      "phone": "987654789",
+      "plan": "Nourishify MuscleGain",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 10,
+      "email": "client10@example.com",
+      "password": "client1010",
+      "full-name": "Diego Vargas",
+      "address": "Av. Tacna 345, Callao, Lima",
+      "phone": "987010123",
+      "plan": "Nourishify AthletePro",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 11,
+      "email": "client11@example.com",
+      "password": "client1123",
+      "full-name": "Fernanda Rojas",
+      "address": "Cl. San Martin 678, Pueblo Libre, Lima",
+      "phone": "987654012",
+      "plan": "Nourishify Basic",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 12,
+      "email": "client12@example.com",
+      "password": "client1209",
+      "full-name": "Andres Espinoza",
+      "address": "Jr. Arequipa 789, Magdalena, Lima",
+      "phone": "987321654",
+      "plan": "Nourishify SlimDown",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 13,
+      "email": "client13@example.com",
+      "password": "client1324",
+      "full-name": "Liliana Paredes",
+      "address": "Av. Caminos del Inca 123, Santiago de Surco, Lima",
+      "phone": "987432165",
+      "plan": "Nourishify MuscleGain",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 14,
+      "email": "client14@example.com",
+      "password": "client1478",
+      "full-name": "Marco Tello",
+      "address": "Av. La Marina 456, San Isidro, Lima",
+      "phone": "987567432",
+      "plan": "Nourishify AthletePro",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 15,
+      "email": "client15@example.com",
+      "password": "client1590",
+      "full-name": "Patricia Quispe",
+      "address": "Av. La Floresta 789, Chorrillos, Lima",
+      "phone": "987098765",
+      "plan": "Nourishify Basic",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 16,
+      "email": "client16@example.com",
+      "password": "client1624",
+      "full-name": "Eduardo Zarate",
+      "address": "Cl. San Francisco 101, San Luis, Lima",
+      "phone": "987456789",
+      "plan": "Nourishify SlimDown",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 17,
+      "email": "client17@example.com",
+      "password": "client1717",
+      "full-name": "Sandra Palomino",
+      "address": "Jr. Los Ficus 123, Villa Maria, Lima",
+      "phone": "987321789",
+      "plan": "Nourishify MuscleGain",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 18,
+      "email": "client18@example.com",
+      "password": "client1856",
+      "full-name": "Oscar Blanco",
+      "address": "Cl. Las Orquideas 456, Los Olivos, Lima",
+      "phone": "987654908",
+      "plan": "Nourishify AthletePro",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
     }
   ],
   "nutritionists": [
@@ -74,7 +194,9 @@
       "description": "description",
       "experience_years": 5,
       "age": 32,
-      "patients": 150,
+      "patients":[
+        1,2,3
+      ],
       "education": "Bachillerato en Nutrición en la UPC, Especialización en..."
     },
     {
@@ -89,7 +211,9 @@
       "description": "description",
       "experience_years": 5,
       "age": 32,
-      "patients": 150,
+      "patients": [
+        4,5,6
+      ],
       "education": "Bachillerato en Nutrición en la UPC, Especialización en..."
     },
     {
@@ -104,7 +228,9 @@
       "description": "description",
       "experience_years": 5,
       "age": 32,
-      "patients": 150,
+      "patients":[
+        7,8,9
+      ],
       "education": "Bachillerato en Nutrición en la UPC, Especialización en..."
     },
     {
@@ -119,8 +245,44 @@
       "description": "description",
       "experience_years": 5,
       "age": 32,
-      "patients": 150,
+      "patients": [
+        10,11,12
+      ],
       "education": "Bachillerato en Nutrición en la UPC, Especialización en..."
+    },
+    {
+      "id": 5,
+      "email": "nutritionist5@example.com",
+      "password": "nutri2525",
+      "specialist": "nutritionist",
+      "full-name": "Luisa Fernandez",
+      "address": "Jr. Arequipa 543, Jesús María, Lima",
+      "phone": "976312450",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
+      "description": "description",
+      "experience_years": 6,
+      "age": 34,
+      "patients": [
+        13,14,15
+      ],
+      "education": "Bachillerato en Nutrición en la UNMSM"
+    },
+    {
+      "id": 6,
+      "email": "nutritionist6@example.com",
+      "password": "nutri3030",
+      "specialist": "nutritionist",
+      "full-name": "Diego Vasquez",
+      "address": "Av. El Polo 210, Surco, Lima",
+      "phone": "956312098",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
+      "description": "description",
+      "experience_years": 7,
+      "age": 36,
+      "patients": [
+        16,17,18
+      ],
+      "education": "Bachillerato en Nutrición en la PUCP"
     }
   ],
   "food-plans": [
