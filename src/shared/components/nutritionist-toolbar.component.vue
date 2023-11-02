@@ -16,7 +16,7 @@
           :to="'/nutritionist-profile/' + nutritionistId"
           class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline" to="#">
         <i class="pi pi-user mr-3"></i>
-        My clients
+        Profile
       </router-link>
 
       <router-link

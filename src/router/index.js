@@ -43,7 +43,7 @@ const router = createRouter({
         {path:"/work-out-plan/:id", component:workOutPlanComponent,},
 
 
-        {path:"/search-nutritionist", component:SearchNutritionistComponent},
+        {path:"/search-nutritionist/:id", component:SearchNutritionistComponent},
 
         {path:"/subscription-plans", component:SubscriptionPlans},
         {path:"/register-form", component:RegisterFormPageComponent},
