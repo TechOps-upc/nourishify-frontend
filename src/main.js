@@ -7,6 +7,8 @@ import 'primevue/resources/primevue.min.css';
 import 'primeicons/primeicons.css';
 // Add PrimeFlex
 import 'primeflex/primeflex.css';
+// Add PrimeIcons
+import 'primeicons/primeicons.css';
 // Add Components
 import Card from "primevue/card";
 import Button from "primevue/button";
@@ -20,6 +22,8 @@ import DataTable from "primevue/datatable"
 import Column from 'primevue/column'
 import Steps from 'primevue/steps';
 import InputText from 'primevue/inputtext';
+import Divider from "primevue/divider";
+import InputNumber from "primevue/inputnumber";
 //Router
 import router from "@/router";
 
@@ -38,5 +42,7 @@ createApp(App)
     .component('pv-column', Column)
     .component('pv-steps', Steps)
     .component('pv-input-text', InputText)
+    .component('pv-input-number', InputNumber)
+    .component('pv-divider', Divider)
     .use(router)
     .mount('#app')

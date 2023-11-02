@@ -59,6 +59,126 @@
       "phone": "987345678",
       "plan": "Nourishify SlimDown",
       "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 7,
+      "email": "client7@example.com",
+      "password": "client7245",
+      "full-name": "Isabel Ortiz",
+      "address": "Cl. Los Cedros 123, Lince, Lima",
+      "phone": "987456123",
+      "plan": "Nourishify Basic",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 8,
+      "email": "client8@example.com",
+      "password": "client8291",
+      "full-name": "Miguel Torres",
+      "address": "Av. Universitaria 789, San Miguel, Lima",
+      "phone": "987567890",
+      "plan": "Nourishify SlimDown",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 9,
+      "email": "client9@example.com",
+      "password": "client9145",
+      "full-name": "Sofia Valdez",
+      "address": "Av. Primavera 456, San Borja, Lima",
+      "phone": "987654789",
+      "plan": "Nourishify MuscleGain",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 10,
+      "email": "client10@example.com",
+      "password": "client1010",
+      "full-name": "Diego Vargas",
+      "address": "Av. Tacna 345, Callao, Lima",
+      "phone": "987010123",
+      "plan": "Nourishify AthletePro",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 11,
+      "email": "client11@example.com",
+      "password": "client1123",
+      "full-name": "Fernanda Rojas",
+      "address": "Cl. San Martin 678, Pueblo Libre, Lima",
+      "phone": "987654012",
+      "plan": "Nourishify Basic",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 12,
+      "email": "client12@example.com",
+      "password": "client1209",
+      "full-name": "Andres Espinoza",
+      "address": "Jr. Arequipa 789, Magdalena, Lima",
+      "phone": "987321654",
+      "plan": "Nourishify SlimDown",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 13,
+      "email": "client13@example.com",
+      "password": "client1324",
+      "full-name": "Liliana Paredes",
+      "address": "Av. Caminos del Inca 123, Santiago de Surco, Lima",
+      "phone": "987432165",
+      "plan": "Nourishify MuscleGain",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 14,
+      "email": "client14@example.com",
+      "password": "client1478",
+      "full-name": "Marco Tello",
+      "address": "Av. La Marina 456, San Isidro, Lima",
+      "phone": "987567432",
+      "plan": "Nourishify AthletePro",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 15,
+      "email": "client15@example.com",
+      "password": "client1590",
+      "full-name": "Patricia Quispe",
+      "address": "Av. La Floresta 789, Chorrillos, Lima",
+      "phone": "987098765",
+      "plan": "Nourishify Basic",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 16,
+      "email": "client16@example.com",
+      "password": "client1624",
+      "full-name": "Eduardo Zarate",
+      "address": "Cl. San Francisco 101, San Luis, Lima",
+      "phone": "987456789",
+      "plan": "Nourishify SlimDown",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 17,
+      "email": "client17@example.com",
+      "password": "client1717",
+      "full-name": "Sandra Palomino",
+      "address": "Jr. Los Ficus 123, Villa Maria, Lima",
+      "phone": "987321789",
+      "plan": "Nourishify MuscleGain",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+    },
+    {
+      "id": 18,
+      "email": "client18@example.com",
+      "password": "client1856",
+      "full-name": "Oscar Blanco",
+      "address": "Cl. Las Orquideas 456, Los Olivos, Lima",
+      "phone": "987654908",
+      "plan": "Nourishify AthletePro",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
     }
   ],
   "nutritionists": [
@@ -70,8 +190,14 @@
       "full-name": "Rosa quispe",
       "address": "Cl. Los Pinos 987, san miguel, Lima",
       "phone": "987345678",
-      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
-
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
+      "description": "description",
+      "experience_years": 5,
+      "age": 32,
+      "patients":[
+        1,2,3
+      ],
+      "education": "Bachillerato en Nutrición en la UPC, Especialización en..."
     },
     {
       "id": 2,
@@ -81,7 +207,14 @@
       "full-name": "Juan Perez",
       "address": "Av. Principal 123, Miraflores, Lima",
       "phone": "987654321",
-      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
+      "description": "description",
+      "experience_years": 5,
+      "age": 32,
+      "patients": [
+        4,5,6
+      ],
+      "education": "Bachillerato en Nutrición en la UPC, Especialización en..."
     },
     {
       "id": 3,
@@ -91,7 +224,14 @@
       "full-name": "Maria Rodriguez",
       "address": "Jr. Lima 456, San Isidro, Lima",
       "phone": "976543210",
-      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
+      "description": "description",
+      "experience_years": 5,
+      "age": 32,
+      "patients":[
+        7,8,9
+      ],
+      "education": "Bachillerato en Nutrición en la UPC, Especialización en..."
     },
     {
       "id": 4,
@@ -101,11 +241,53 @@
       "full-name": "Carlos Gutiérrez",
       "address": "Av. Independencia 789, Breña, Lima",
       "phone": "956789012",
-      "photo": "https://i.ibb.co/DQQnkzp/3980947.png"
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
+      "description": "description",
+      "experience_years": 5,
+      "age": 32,
+      "patients": [
+        10,11,12
+      ],
+      "education": "Bachillerato en Nutrición en la UPC, Especialización en..."
+    },
+    {
+      "id": 5,
+      "email": "nutritionist5@example.com",
+      "password": "nutri2525",
+      "specialist": "nutritionist",
+      "full-name": "Luisa Fernandez",
+      "address": "Jr. Arequipa 543, Jesús María, Lima",
+      "phone": "976312450",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
+      "description": "description",
+      "experience_years": 6,
+      "age": 34,
+      "patients": [
+        13,14,15
+      ],
+      "education": "Bachillerato en Nutrición en la UNMSM"
+    },
+    {
+      "id": 6,
+      "email": "nutritionist6@example.com",
+      "password": "nutri3030",
+      "specialist": "nutritionist",
+      "full-name": "Diego Vasquez",
+      "address": "Av. El Polo 210, Surco, Lima",
+      "phone": "956312098",
+      "photo": "https://i.ibb.co/DQQnkzp/3980947.png",
+      "description": "description",
+      "experience_years": 7,
+      "age": 36,
+      "patients": [
+        16,17,18
+      ],
+      "education": "Bachillerato en Nutrición en la PUCP"
     }
   ],
-  "foodPlan":{
-    "1": {
+  "food-plans": [
+    {
+      "id": 1,
       "monday": {
         "breakfast": "Oatmeal with fruits and honey, Low-fat yogurt, Green tea",
         "lunch": "Grilled chicken breast, Quinoa, Mixed salad with olive oil",
@@ -141,7 +323,223 @@
         "lunch": "Mixed barbecue, Baked potatoes, Coleslaw salad",
         "dinner": "Caesar salad, Garlic bread, Red fruit tea"
       }
+    },
+    {
+      "id": 2,
+      "monday": {
+        "breakfast": "Banana smoothie",
+        "lunch": "Chicken salad",
+        "dinner": "Veggie wrap"
+      },
+      "tuesday": {
+        "breakfast": "Berry juice",
+        "lunch": "Tofu stir-fry",
+        "dinner": "Fish tacos"
+      },
+      "wednesday": {
+        "breakfast": "Egg toast",
+        "lunch": "Shrimp salad",
+        "dinner": "Beef steak"
+      },
+      "thursday": {
+        "breakfast": "Chia pudding",
+        "lunch": "Veggie burger",
+        "dinner": "Salmon fillet"
+      },
+      "friday": {
+        "breakfast": "Apple cider",
+        "lunch": "Turkey wrap",
+        "dinner": "Veggie soup"
+      },
+      "saturday": {
+        "breakfast": "Omelette duo",
+        "lunch": "Beef skewers",
+        "dinner": "Shrimp pasta"
+      },
+      "sunday": {
+        "breakfast": "Pancake stack",
+        "lunch": "Fish grill",
+        "dinner": "Chicken roast"
+      }
     }
-  }
 
+  ],
+
+  "work-out-plans": [
+    {
+      "id": 1,
+      "monday": {
+        "muscle-group": "Chest and triceps",
+        "exercise-1":"Bench press   4x10",
+        "exercise-2":"Pull-over     3x12",
+        "exercise-3":"Dips          3x10"
+      },
+      "tuesday": {
+        "muscle-group": "Shoulder and biceps",
+        "exercise-1":"Pull-ups      4x8 ",
+        "exercise-2":"Barbell row   3x10",
+        "exercise-3":"Barbell biceps curl 3x12"
+      },
+      "wednesday": {
+        "muscle-group": "Shoulders and legs",
+        "exercise-1":"Squats        4x12",
+        "exercise-2":"Leg press     3x10",
+        "exercise-3":"Military press 3x8"
+      },
+      "thursday": {
+        "muscle-group": "Chest and triceps",
+        "exercise-1":"Incline Press 4x10",
+        "exercise-2":"Pull-over     3x12",
+        "exercise-3":"Dips          3x10"
+      },
+      "friday":  {
+        "muscle-group": "Back and Biceps",
+        "exercise-1":"Weighted pull-ups 4x6",
+        "exercise-2":"Dumbbell Biceps Curl 3x10",
+        "exercise-3":"Hammer        3x12"
+      },
+      "saturday":  {
+        "muscle-group": "Shoulders and legs",
+        "exercise-1":"Front squats  4x12",
+        "exercise-2":"Leg press     3x10",
+        "exercise-3":"Dumbbell military press 3x8"
+      },
+      "sunday": {
+        "rest-day": true
+      }
+    },
+    {
+      "id": 2,
+      "monday": {
+        "muscle-group": "Back and Biceps",
+        "exercise-1":"Deadlift        4x6",
+        "exercise-2":"Barbell Biceps Curl 3x10",
+        "exercise-3":"Hammer          3x12"
+      },
+      "tuesday": {
+        "muscle-group": "Legs",
+        "exercise-1":"Squats        4x12",
+        "exercise-2":"Leg Press 3x10",
+        "exercise-3":"Lunges          3x12"
+      },
+      "wednesday": {
+        "muscle-group": "Chest and Triceps",
+        "exercise-1":"Bench Press    4x10",
+        "exercise-2":"Tricep Dips    3x10",
+        "exercise-3":"Cable Flyes    3x12"
+      },
+      "thursday": {
+        "muscle-group": "Shoulders and Back",
+        "exercise-1":"Overhead Press  4x8",
+        "exercise-2":"Pull-ups       3x10",
+        "exercise-3":"Face Pulls     3x12"
+      },
+      "friday": {
+        "muscle-group": "Legs",
+        "exercise-1":"Leg Press     4x12",
+        "exercise-2":"Deadlift      3x8",
+        "exercise-3":"Calf Raises   3x15"
+      },
+      "saturday": {
+        "muscle-group": "Arms",
+        "exercise-1":"Barbell Biceps Curl 4x10",
+        "exercise-2":"Skull Crushers      3x10",
+        "exercise-3":"Preacher Curls      3x12"
+      },
+      "sunday": {
+        "rest-day": true
+      }
+    },
+    {
+      "id": 3,
+      "monday": {
+        "muscle-group": "Chest and Triceps",
+        "exercise-1":"Incline Bench Press 4x10",
+        "exercise-2":"Tricep Pushdown     3x12",
+        "exercise-3":"Push-ups            3x15"
+      },
+      "tuesday": {
+        "muscle-group": "Back and Biceps",
+        "exercise-1":"Pull-ups       4x8",
+        "exercise-2":"Barbell Biceps Curl 3x10",
+        "exercise-3":"Hammer           3x12"
+      },
+      "wednesday": {
+        "muscle-group": "Legs",
+        "exercise-1":"Squats      4x12",
+        "exercise-2":"Leg Press   3x10",
+        "exercise-3":"Lunges      3x12"
+      },
+      "thursday": {
+        "muscle-group": "Shoulders and Abs",
+        "exercise-1":"Military Press 4x8",
+        "exercise-2":"Lateral Raises 3x12",
+        "exercise-3":"Planks      3x60''"
+      },
+      "friday": {
+        "muscle-group": "Chest and Back",
+        "exercise-1":"Dumbbell Bench Press 4x10",
+        "exercise-2":"Bent-Over Rows 3x10",
+        "exercise-3":"Push-ups       3x15"
+      },
+      "saturday": {
+        "muscle-group": "Legs",
+        "exercise-1":"Deadlift       4x6",
+        "exercise-2":"Leg Curls     3x10",
+        "exercise-3":"Calf Raises   3x15"
+      },
+      "sunday": {
+        "rest-day": true
+      }
+    }
+  ],
+
+
+  "subscription-plans": [
+    {
+      "id": 1,
+      "name": "Nourishify Basic",
+      "price": 15,
+      "perks": [
+        "Horario de comida",
+        "Horario de ejercicio",
+        "Consultas con nutricionistas en vivo"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Nourishify SlimDown",
+      "price": 35,
+      "perks": [
+        "Horario de comida",
+        "Horario de ejercicio",
+        "Consultas con nutricionistas en vivo",
+        "Recetas saludables"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Nourishify MuscleGain",
+      "price": 35,
+      "perks": [
+        "Horario de comida",
+        "Horario de ejercicio",
+        "Consultas con nutricionistas en vivo",
+        "Seguimiento de progreso",
+        "Suplementos recomendados"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Nourishify AthletePro",
+      "price": 60,
+      "perks": [
+        "Horario de comida",
+        "Horario de ejercicio",
+        "Consultas con nutricionistas en vivo",
+        "Análisis de rendimiento",
+        "Información sobre lesiones y rehabilitación"
+      ]
+    }
+  ]
 }

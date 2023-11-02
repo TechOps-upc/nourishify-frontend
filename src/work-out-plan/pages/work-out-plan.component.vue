@@ -1,22 +1,22 @@
 <template>
   <toolbar-component></toolbar-component>
-  <food-plan></food-plan>
+  <work-out-plan></work-out-plan>
 </template>
 
 <script>
 import toolbarComponent from "@/shared/components/client-toolbar.component.vue";
 import profileDataComponent from "@/profile/components/clients-profile-data.component.vue";
-import FoodPlan from "@/food-plan/components/food-plan-data.component.vue";
+import workOutPlan from '@/work-out-plan/components/work-out-plan-data.component.vue'
+
 export default {
-  name: 'SimpleFoodTable',
+  name: "SimpleWorkOutTable",
   components:{
-    FoodPlan,
+    workOutPlan,
     toolbarComponent
   }
 }
 </script>
 
-
-<style>
+<style scoped>
 
 </style>
