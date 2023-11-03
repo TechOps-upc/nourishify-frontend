@@ -1,6 +1,6 @@
 <template>
   <div class="a">
-    <h1 id="title">Select a Plan</h1>
+    <h1 id="title">{{ $t("lines.select-plan") }}</h1>
     <div class="plan-card">
       <div v-for="plan in subscriptionPlans" :key="plan.id">
         <pv-card class="content">
@@ -13,7 +13,7 @@
             <p v-for="perk in plan.perks" :key="perk.id" class="m-0 p-0"><i class="pi pi-check-square"></i> {{ perk }}
             </p>
             <router-link :to="'payment/' + plan.id">
-              <pv-button class="btn" label="Comenzar prueba"></pv-button>
+              <pv-button class="btn" label="Start trial"></pv-button>
             </router-link>
           </template>
         </pv-card>

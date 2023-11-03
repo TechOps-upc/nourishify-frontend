@@ -6,8 +6,8 @@
 
   <div class="professional-profile">
     <div class="professional-header">
-      <h1>Professional Profile</h1>
-      <button class="p-button p-button-secondary">Schedule Appointment</button>
+      <h1>{{ $t("general.professional-profile") }}</h1>
+      <button class="p-button p-button-secondary">{{  $t("general.schedule") }}</button>
     </div>
 
     <div class="professional-info">
@@ -20,13 +20,13 @@
           <div class="p-card-title">{{ nutritionist["full-name"] }}</div>
           <div class="p-card-content">
             <div>
-              <i class="pi pi-calendar"></i> Age: {{ nutritionist.age }}
+              <i class="pi pi-calendar"></i> {{ $t("general.age") }}: {{ nutritionist.age }}
             </div>
             <div>
-              <i class="pi pi-briefcase"></i> Experience: {{ nutritionist.experience_years }} years
+              <i class="pi pi-briefcase"></i> {{ $t("general.experience") }}: {{ nutritionist.experience_years }} years
             </div>
             <div>
-              <i class="pi pi-users"></i> Number of Patients: {{ nutritionist.patients }}
+              <i class="pi pi-users"></i> {{ $t("general.number-patients") }}: {{ nutritionist.patients }}
             </div>
           </div>
         </div>
@@ -34,7 +34,7 @@
 
       <!-- Tarjeta con la educación -->
       <div class="p-card education-card">
-        <div class="p-card-title">Education</div>
+        <div class="p-card-title">{{ $t("general.education") }}</div>
         <div class="p-card-content">
           {{ nutritionist.education }}
         </div>
@@ -42,7 +42,7 @@
     </div>
 
     <div class="professional-review">
-      <button class="p-button p-button-primary">See Review</button>
+      <button class="p-button p-button-primary">{{ $t("general.see-review") }}</button>
     </div>
   </div>
 </template>

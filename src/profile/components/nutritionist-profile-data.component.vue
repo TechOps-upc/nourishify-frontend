@@ -6,11 +6,11 @@
 
     <!-- Datos del Nutricionista -->
     <div class="data-container">
-      <div class="data-box"><strong>Full Name:</strong> {{ nutritionist["full-name"] }}</div>
-      <div class="data-box"><strong>Address:</strong> {{ nutritionist.address }}</div>
-      <div class="data-box"><strong>Email:</strong> {{ nutritionist.email }}</div>
-      <div class="data-box"><strong>Phone:</strong> {{ nutritionist.phone }}</div>
-      <div class="data-box"><strong>Specialist:</strong> {{ nutritionist.specialist }}</div>
+      <div class="data-box"><strong>{{ $t("general.full-name") }}:</strong> {{ nutritionist["full-name"] }}</div>
+      <div class="data-box"><strong>{{ $t("general.address") }}:</strong> {{ nutritionist.address }}</div>
+      <div class="data-box"><strong>{{ $t("general.email") }}:</strong> {{ nutritionist.email }}</div>
+      <div class="data-box"><strong>{{ $t("general.phone") }}:</strong> {{ nutritionist.phone }}</div>
+      <div class="data-box"><strong>{{ $t("general.specialist") }}:</strong> {{ nutritionist.specialist }}</div>
     </div>
   </div>
 </template>
