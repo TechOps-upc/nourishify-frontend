@@ -1,6 +1,6 @@
 <template>
   <div class="search-nutritionist">
-    <h1>Nutritionists</h1>
+    <h1>{{ $t("general.nutritionist") }}</h1>
 
     <!-- Campo de búsqueda -->
     <div class="p-fluid p-formgroup-inline">
@@ -24,17 +24,16 @@
           <div class="p-card-body p-card-content-gray">
             <div class="p-card-title">{{ nutritionist["full-name"] }}</div>
             <div class="p-card-content">
-              <p>Specialist: {{ nutritionist.specialist }}</p>
+              <p>{{ $t("general.specialist")}} : {{ nutritionist.specialist }}</p>
               <p>{{nutritionist.description}}</p>
             </div>
           </div>
 
 
-
           <div class="p-card-actions">
             <!-- Usamos una estructura similar para pasar el ID del nutricionista como parámetro -->
             <router-link :to="{ name: 'ProfessionalProfile', params: { id: nutritionist.id } }">
-              <button class="p-button p-button-primary">See More</button>
+              <button class="p-button p-button-primary">{{ $t("general.see-more") }}</button>
             </router-link>
           </div>
         </div>

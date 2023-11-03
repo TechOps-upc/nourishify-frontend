@@ -1,0 +1,58 @@
+{
+  "hello": "holaaaa",
+  "general": {
+    "h-y-log-in": "¿Cómo te gustaría iniciar sesión?",
+    "h-y-sign-in": "¿Cómo te gustaría registrarte?",
+    "client": "Cliente",
+    "nutritionist": "Nutricionista",
+    "specialist": "Especialista",
+    "full-name": "Nombre completo",
+    "address": "Dirección",
+    "phone": "Número de teléfono",
+    "plan": "Plan",
+    "username": "Nombre de usuario",
+    "register-user": "Registrar usuario",
+    "profile": "Perfil",
+    "appointments": "Citas",
+    "food-plan": "Plan de alimentación",
+    "work-out-plan": "Plan de entrenamiento",
+    "search-a-date": "Buscar una fecha",
+    "logout": "Cerrar sesión",
+    "my-clients": "Mis clientes",
+
+    "see-more": "Ver más",
+    "see-progress": "Ver progreso",
+    "professional-profile": "Perfil profesional",
+    "schedule": "Programar cita",
+    "age": "Edad",
+    "experience": "Experiencia",
+    "number-patients": "Número de pacientes",
+    "education": "Educación",
+    "see-review": "Ver reseña",
+    "monday": "Lunes",
+    "tuesday": "Martes",
+    "wednesday": "Miércoles",
+    "thursday": "Jueves",
+    "friday": "Viernes",
+    "saturday": "Sábado",
+    "sunday": "Domingo",
+    "login": "Iniciar sesión",
+    "user/email": "Usuario / Email",
+    "email": "Correo electrónico",
+    "password": "Contraseña",
+    "forgot-password": "Olvidé mi contraseña",
+    "y-d-n-sign-up": "¿No tienes una cuenta? Regístrate"
+  },
+  "payment": {
+    "proceed": "Proceder con el pago",
+    "titular-name": "Nombre del titular",
+    "card-number": "Número de tarjeta",
+    "expire-date": "Fecha de vencimiento",
+    "sec-code": "Código de seguridad",
+    "confirm": "Confirmar"
+  },
+  "lines": {
+    "begin-journey": "¡Comienza tu viaje con Nourishify!",
+    "select-plan": "Selecciona un plan"
+  }
+}
