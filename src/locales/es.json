@@ -1,0 +1,37 @@
+{
+  "hello": "holaaaaaa",
+  "how-sign-up": {
+    "how-would-you-like-to-sign-in?": "¿Cómo le gustaría acceder?",
+    "client": "Cliente",
+    "nutritionist": "Nutricionista"
+  },
+  "how-log-in" : {
+    "how-would-you-like-to-log-in?" : "¿Cómo te gustaría iniciar sesión?",
+    "client": "Cliente",
+    "nutritionist": "Nutricionista"
+  },
+  "log-in-form": {
+    "log-in": "Acceso",
+    "user-email": "Usuario/Correo Electrónico",
+    "password": "Contraseña",
+    "forgot-password": "Olvidé mi contraseña",
+    "create-account": "¿No tienes una cuenta? Crear cuenta"
+  },
+  "profile": {
+    "full-name": "Nombre completo:",
+    "address": "Dirección:",
+    "email": "Correo Electrónico:",
+    "phone": "Teléfono:",
+    "plan": "Plan:"
+  },
+  "toolbar": {
+    "profile": "Perfil",
+    "profile-nutritionist": "Perfil de Nutricionista",
+    "my-appointments": "Mis Citas",
+    "appointments": "Reservas",
+    "my-food-plans": "Mis Planes Alimenticios",
+    "my-nutritionist-plans": "Mis planes Nutricionales",
+    "search-a-date": "Buscar un turno",
+    "log-out": "Cerrar Sesión"
+  }
+}
