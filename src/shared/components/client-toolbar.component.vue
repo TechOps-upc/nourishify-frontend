@@ -15,37 +15,37 @@
           :to="'/clients-profile/' + clientId"
           class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline">
         <i class="pi pi-user mr-3"></i>
-        Profile
+        {{ $t("general.profile") }}
       </router-link>
 
       <router-link class="block mt-4 mb-2 p-3 rounded-lg text-white font-semibold hover:bg-green-600 transition duration-300 no-underline" to="/appointments">
         <i class="pi pi-calendar mr-3"></i>
-        Appointments
+        {{ $t("general.appointments") }}
       </router-link>
 
       <router-link
           :to="'/food-plan/' + clientId"
           class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline">
         <i class="pi pi-chart-bar mr-3"></i>
-        Food plan
+        {{ $t("general.food-plan") }}
       </router-link>
       <router-link
           :to="'/work-out-plan/' + clientId"
           class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline">
         <i class="pi pi-chart-bar mr-3"></i>
-        Work out plan
+        {{ $t("general.work-out-plan") }}
       </router-link>
 
       <router-link
           :to="'/search-nutritionist/'+ clientId"
           class="block mt-4 mb-2 p-3 rounded-lg  text-white font-semibold hover:bg-green-600 transition duration-300 no-underline" >
         <i class="pi pi-search mr-3"></i>
-        Search a Date
+        {{ $t("general.search-a-date") }}
       </router-link>
 
       <div class="logout-section  block  mt-8 p-3 font-semibold hover:bg-red-600 transition duration-300 cursor-pointer" @click="logout">
         <i class="pi pi-power-off mr-3"></i>
-        Logout
+        {{ $t("general.logout") }}
       </div>
 
     </pv-sidebar>

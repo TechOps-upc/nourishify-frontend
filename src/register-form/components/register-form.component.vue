@@ -1,23 +1,23 @@
 <template>
   <div class="register-container">
     <div class="register-box">
-      <h2 class="register-title" >Begin Your Journey with Nourishify!</h2>
+      <h2 class="register-title" >{{ $t("lines.begin-journey") }}</h2>
 
-      <label for="username">Username</label>
+      <label for="username">{{ $t("general.username") }}</label>
       <input id="username" v-model="username" placeholder="Username">
 
-      <label for="email">Email</label>
+      <label for="email">{{ $t("general.email") }}</label>
       <input id="email" v-model="email" placeholder="Email">
 
-      <label for="phonenumber">Phone Number</label>
+      <label for="phonenumber">{{ $t("general.phone") }}</label>
       <input id="phonenumber" v-model="phonenumber" placeholder="Phone Number">
 
-      <label for="password">Password</label>
+      <label for="password">{{ $t("general.password") }}</label>
       <input id="password" type="password" v-model="password" placeholder="Password">
       <div class="button-message-container">
 
         <div class="button-container">
-          <button @click="register">Register user</button>
+          <button @click="register">{{ $t("general.register-user") }}</button>
         </div>
         <p v-if="error" class="error-message">{{ error }}</p>
       </div>

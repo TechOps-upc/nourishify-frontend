@@ -4,7 +4,7 @@ import messages from "@intlify/unplugin-vue-i18n/messages";
 export const i18n = createI18n({
     legacy: false,
     globalInjection: true,
-    locale: "es",
+    locale: "en",
     //para idioma del navegador
     //locale: window.navigator.language.substring(0,2) | "en",
     fallbackLocale: "es",

@@ -1,15 +1,15 @@
 <template>
   <div class="container">
-    <h1>{{ $t('how-log-in.how-would-you-like-to-log-in?')}}</h1>
+    <h1>{{ $t('general.h-y-log-in')}}</h1>
     <div class="content">
       <div class="image-wrapper">
         <img class="image bordered" src="/public/how-would-sign-up-images/client-sign-up.png" alt="Left Image">
-        <button @click="goToLogInClient" class="rounded-button">{{ $t("how-log-in.client") }}</button>
+        <button @click="goToLogInClient" class="rounded-button">{{ $t("general.client") }}</button>
       </div>
       <div class="vertical-line"></div>
       <div class="image-wrapper">
         <img class="image bordered" src="/public/how-would-sign-up-images/nutritionist-sign-up.png" alt="Right Image">
-        <button @click="goToLogInNutritionist" class="rounded-button">{{ $t("how-log-in.nutritionist") }}</button>
+        <button @click="goToLogInNutritionist" class="rounded-button">{{ $t("general.nutritionist") }}</button>
       </div>
     </div>
   </div>

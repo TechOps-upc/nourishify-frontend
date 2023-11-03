@@ -1,37 +1,58 @@
 {
-  "hello": "hellooooo",
-  "how-sign-up": {
-    "how-would-you-like-to-sign-in?": "How would you like to sign in?",
+  "hello": "helloooo",
+  "general": {
+    "h-y-log-in": "How would you like to log in?",
+    "h-y-sign-in": "How would you like to sign in?",
     "client": "Client",
-    "nutritionist": "Nutritionist"
-  },
-  "how-log-in" : {
-    "how-would-you-like-to-log-in?" : "How would you like to log in?",
-    "client": "Client",
-    "nutritionist": "Nutritionist"
-  },
-  "log-in-form": {
-    "log-in": "Log In",
-    "user-email": "User/Email",
+    "nutritionist": "Nutritionist",
+    "specialist": "Specialist",
+    "full-name": "Full Name",
+    "address": "Address",
+    "phone": "Phone Number",
+    "plan": "Plan",
+    "username": "Username",
+    "register-user": "Register User",
+    "profile": "Profile",
+    "appointments": "Appointments",
+    "food-plan": "Food plan",
+    "work-out-plan": "Work out plan",
+    "search-a-date": "Search a Date",
+    "logout": "Log Out",
+    "my-clients": "My clients",
+
+    "see-more": "See More",
+    "see-progress": "See Progress",
+    "professional-profile": "Professional Profile",
+    "schedule": "Schedule Appointment",
+    "age": "Age",
+    "experience": "Experience",
+    "number-patients": "Number of Patients",
+    "education": "Education",
+    "see-review": "See Review",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday",
+    "login": "Log In",
+    "user/email": "User / Email",
+    "email": "Email",
     "password": "Password",
     "forgot-password": "I forgot my password",
-    "create-account": "You do not have an account? Sign up"
+    "y-d-n-sign-up": "You do not have an account? Sign up"
   },
-  "profile": {
-    "full-name": "Full Name:",
-    "address": "Address:",
-    "email": "Email:",
-    "phone": "Phone:",
-    "plan": "Plan:"
+  "payment": {
+    "proceed": "Proceed with the payment",
+    "titular-name": "Titular Name",
+    "card-number": "Card Number",
+    "expire-date": "Expire Date",
+    "sec-code": "Security Code",
+    "confirm": "Confirm"
   },
-  "toolbar": {
-    "profile": "Profile",
-    "profile-nutritionist": "Nutritionist Profile",
-    "my-appointments": "My Appointments",
-    "appointments": "Appointments",
-    "my-food-plans": "My Food Plans",
-    "my-nutritionist-plans": "My Nutritionist Plans",
-    "search-a-date": "Search a Date",
-    "log-out": "Logout"
+  "lines": {
+    "begin-journey": "Begin Your Journey with Nourishify!",
+    "select-plan": "Select a Plan"
   }
 }
