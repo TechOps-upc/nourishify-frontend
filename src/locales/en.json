@@ -20,7 +20,7 @@
   "profile": {
     "full-name": "Full Name:",
     "address": "Address:",
-    "address": "Email:",
+    "email": "Email:",
     "phone": "Phone:",
     "plan": "Plan:"
   },
