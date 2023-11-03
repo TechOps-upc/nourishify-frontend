@@ -1,26 +1,26 @@
 <template>
   <div class="flex">
     <div class="form m-5 w-max flex-wrap">
-      <h1>Proceed with the payment</h1>
-      <h3>Nombre del titular:</h3>
+      <h1>{{ $t("payments.proceed") }}</h1>
+      <h3>{{ $t("payment.titular-name") }}:</h3>
       <pv-input-text id="float-input" type="text" class="w-full" v-model="PaymentInfo.name"/>
-      <h3>Numero de tarjeta:</h3>
+      <h3>{{ $t("payment.card-number") }}:</h3>
       <pv-input-number id="float-input" class="w-full" v-model="PaymentInfo.cardNumber" :useGrouping="false" inputId="minmax" :min="1000000000000000" :max="9999999999999999"/>
       <div class="flex gap-3">
         <div class="flex-wrap">
-          <h3>Fecha de vencimiento:</h3>
+          <h3>{{ $t("payment.expire-date") }}:</h3>
           <pv-input-text id="float-input" type="text" class="w-full" v-model="PaymentInfo.expirationDate" />
         </div>
         <div class="flex-wrap">
-          <h3>Codigo de seguridad:</h3>
+          <h3>{{ $t("payment.sec-code") }}:</h3>
           <pv-input-number id="float-input" class="w-full" v-model="PaymentInfo.cvv" :useGrouping="false" inputId="minmax" :min="100" :max="9999" />
         </div>
       </div>
-      <h3>Correo electronico:</h3>
+      <h3>{{ $t("general.email") }}:</h3>
       <pv-input-text id="float-input" type="email" class="w-full" v-model="PaymentInfo.email"/>
 
       <router-link :to="'/register-form'">
-        <pv-button class="btn w-max" label="Confirmar" @click="logPaymentInfo" />
+        <pv-button class="btn w-max" label="Confirm" @click="logPaymentInfo" />
       </router-link>
 
     </div>
