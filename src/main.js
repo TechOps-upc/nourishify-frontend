@@ -24,12 +24,15 @@ import Steps from 'primevue/steps';
 import InputText from 'primevue/inputtext';
 import Divider from "primevue/divider";
 import InputNumber from "primevue/inputnumber";
+//Add Plugins
+import { i18n } from "@/plugins/i18n.js";
 //Router
 import router from "@/router";
 
 
 createApp(App)
     .use(PrimeVue, { ripple: true })
+    .use(i18n)
     .component('pv-card', Card)
     .component('pv-button', Button)
     .component('pv-select-button', SelectButton)
