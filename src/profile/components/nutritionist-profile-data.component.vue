@@ -7,7 +7,7 @@
     <div class="data-container">
       <div class="data-box"><strong>{{ $t("profile.full-name") }}</strong> {{ nutritionist["full-name"] }}</div>
       <div class="data-box"><strong>{{ $t("profile.address") }}</strong> {{ nutritionist.address }}</div>
-      <div class="data-box"><strong>{{ $t("profile.address") }}</strong> {{ nutritionist.email }}</div>
+      <div class="data-box"><strong>{{ $t("profile.email") }}</strong> {{ nutritionist.email }}</div>
       <div class="data-box"><strong>{{ $t("profile.phone") }}</strong> {{ nutritionist.phone }}</div>
       <div class="data-box"><strong>{{ $t("profile.plan") }}</strong> {{ nutritionist.specialist }}</div>
     </div>
