@@ -44,7 +44,12 @@
 </template>
 <script>
 
-import httpSearchNutritionist from "@/cliente-sidebar/search-nutritionist/service/http-search-nutritionist.js";
+//import httpSearchNutritionist from "@/shared/services/services.js"
+import httpCommon from "@/shared/services/http-common.js";
+
+//"@/cliente-sidebar/search-nutritionist/service/http-search-nutritionist.js";
+
+
 export default {
   name: "SearchNutritionistData",
   data() {
@@ -63,7 +68,7 @@ export default {
   },
   mounted() {
     // Cargar datos de nutricionistas desde la API
-    httpSearchNutritionist.get("/nutritionists")
+    httpCommon.get("/nutritionists")
         .then((response) => {
           this.nutritionists = response.data;
         })

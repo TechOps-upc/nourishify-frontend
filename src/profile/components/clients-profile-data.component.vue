@@ -1,7 +1,9 @@
 <script>
-import { getUserById } from '../service/users-data-api.service.js';
 
-    export default {
+//import { getUserById } from '../service/users-data-api.service.js'
+import {AuthService} from "@/shared/services/services.js";
+
+export default {
       data() {
         return {
           user: {}
@@ -14,7 +16,8 @@ import { getUserById } from '../service/users-data-api.service.js';
       },
       async created() {
         try {
-          const response = await getUserById(this.userId);
+          const authService = new AuthService();
+          const response = await authService.getUserById(this.userId);
           this.user = response.data;
         } catch (error) {
           console.error("Error obteniendo el usuario:", error);

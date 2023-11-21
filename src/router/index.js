@@ -44,7 +44,7 @@ const router = createRouter({
         {path:"/register-form", component:RegisterFormPageComponent},
         //{path:" /professional-profile", component:ProfessionalProfileComponent}
 
-       {path: "/professional-profile/:id", name: "ProfessionalProfile", component: ProfessionalProfileComponent,},
+       {path: "/professional-profile/:id", name: "ProfessionalProfile", component: ProfessionalProfileComponent},
 
     ]
 });

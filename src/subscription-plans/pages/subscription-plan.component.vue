@@ -21,7 +21,8 @@
 </template>
 
 <script>
-import {SubscriptionPlansApiService} from "../services/subscription-plans-api.service.js";
+//import {SubscriptionPlansApiService} from "../services/subscription-plans-api.service.js";
+import {SubscriptionPlansApiService} from "@/shared/services/services.js";
 
 export default {
   name: 'subscription-plans',

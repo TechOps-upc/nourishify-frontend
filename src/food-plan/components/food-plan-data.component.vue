@@ -13,7 +13,10 @@
 </template>
 
 <script>
-import { FoodPlanApiService } from '../service/food-plan-api.js';
+
+import {FoodPlanApiService} from "@/shared/services/services.js";
+//import { FoodPlanApiService } from '../service/food-plan-api.js';
+
 
   export default {
     data() {

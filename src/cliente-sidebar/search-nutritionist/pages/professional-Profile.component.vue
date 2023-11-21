@@ -56,7 +56,8 @@ import toolbarComponent from "@/shared/components/client-toolbar.component.vue";
 
 
 
-import httpSearchNutritionist from "@/cliente-sidebar/search-nutritionist/service/http-search-nutritionist.js";
+//import httpSearchNutritionist from "@/cliente-sidebar/search-nutritionist/service/http-search-nutritionist.js";
+import httpCommon from "@/shared/services/http-common.js";
 
 export default {
 
@@ -76,7 +77,7 @@ export default {
   created() {
     const nutritionistId = this.$route.params.id;
 
-    httpSearchNutritionist.get(`/nutritionists/${nutritionistId}`)
+    httpCommon.get(`/nutritionists/${nutritionistId}`)
         .then((response) => {
           this.nutritionist = response.data;
         })

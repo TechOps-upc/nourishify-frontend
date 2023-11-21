@@ -17,7 +17,9 @@
 
 <script>
 //import { getNutritionistById } from '../service/nutritionists-data-api.service.js';
-import {getNutritionistById} from "@/profile/service/users-data-api.service.js";
+//import {getNutritionistById} from "@/profile/service/users-data-api.service.js";
+
+import {AuthService} from "@/shared/services/services.js";
 
 export default {
   data() {
@@ -32,7 +34,8 @@ export default {
   },
   async created() {
     try {
-      const response = await getNutritionistById(this.nutritionistId);
+      const authService = new AuthService();
+      const response = await authService.getNutritionistById(this.nutritionistId);
       this.nutritionist = response.data;
     } catch (error) {
       console.error("Error obteniendo el nutricionista:", error);

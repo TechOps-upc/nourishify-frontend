@@ -24,8 +24,10 @@
 </template>
 
 <script>
-import { fetchClientByCredentials as fetchClient } from '@/log-in/services/users-api.service.js';
-import { fetchNutritionistByCredentials as fetchNutritionist } from '@/log-in/services/users-api.service.js';
+//import { fetchClientByCredentials as fetchClient } from '@/log-in/services/users-api.service.js';
+//import { fetchNutritionistByCredentials as fetchNutritionist } from '@/log-in/services/users-api.service.js';
+
+import {AuthService} from "@/shared/services/services.js";
 
 export default {
   data() {
@@ -46,11 +48,11 @@ export default {
     async login() {
       try {
         let response;
-
+        const authService = new AuthService();
         if (this.userRole === 'client') {
-          response = await fetchClient(this.email, this.password);
+          response = await authService.fetchClientByCredentials(this.email, this.password);
         } else if (this.userRole === 'nutritionist') {
-          response = await fetchNutritionist(this.email, this.password);
+          response = await authService.fetchNutritionistByCredentials(this.email, this.password);
         }
 
         if (response.data.length === 0) {
