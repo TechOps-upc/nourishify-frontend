@@ -1,7 +1,16 @@
 <template>
   <div class="register-container">
     <div class="register-box">
-      <h2 class="register-title" >{{ $t("lines.begin-journey") }}</h2>
+      <h2 class="register-title">{{ $t("lines.begin-journey") }}</h2>
+
+      <label for="userType">{{ $t("general.user-type") }}</label>
+      <select id="userType" v-model="userType" @change="handleUserTypeChange">
+        <option value="client">{{ $t("general.client") }}</option>
+        <option value="nutritionist">{{ $t("general.nutritionist") }}</option>
+      </select>
+      <br>
+
+      <!-- Campos comunes -->
 
       <label for="username">{{ $t("general.username") }}</label>
       <input id="username" v-model="username" placeholder="Username">
@@ -14,13 +23,51 @@
 
       <label for="password">{{ $t("general.password") }}</label>
       <input id="password" type="password" v-model="password" placeholder="Password">
-      <div class="button-message-container">
 
+      <label for="address">{{ $t("general.address") }}</label>
+      <input id="address" v-model="address" placeholder="Address">
+
+
+      <!-- Campos específicos para nutricionistas -->
+      <div v-show="userType === 'nutritionist'">
+        <label for="description">{{ $t("general.description") }}</label>
+        <input id="description" v-model="description" placeholder="Description">
+
+        <label for="specialist">{{ $t("general.specialist") }}</label>
+        <input id="specialist" v-model="specialist" placeholder="Specialist">
+
+        <label for="experience">{{ $t("general.experience") }}</label>
+        <input id="experience" v-model="experience" placeholder="Experience">
+
+        <label for="education">{{ $t("general.education") }}</label>
+        <input id="education" v-model="education" placeholder="Education">
+
+        <label for="age">{{ $t("general.age") }}</label>
+        <input id="age" v-model="age" placeholder="Age">
+
+        <!-- Agrega otros campos específicos para nutricionistas aquí -->
+
+      </div>
+
+      <!-- Campos específicos para clientes -->
+
+      <div v-show="userType === 'client'">
+        <label for="plan">{{ $t("general.plan") }}</label>
+        <input id="plan" v-model="plan" placeholder="Plan">
+
+        <!-- Agrega otros campos específicos para nutricionistas aquí -->
+
+      </div>
+
+      <!-- Botón de registro -->
+      <div class="button-message-container">
         <div class="button-container">
           <button @click="register">{{ $t("general.register-user") }}</button>
         </div>
         <p v-if="error" class="error-message">{{ error }}</p>
       </div>
+
+      <!-- Mensaje de éxito -->
       <div class="message-container">
         <p v-if="successMessage" class="success-message">{{ successMessage }}</p>
       </div>
@@ -28,23 +75,117 @@
   </div>
 </template>
 
+
 <script>
+import axios from 'axios';
+
 export default {
   data() {
     return {
+      userType: 'client',
       username: '',
       email: '',
       phonenumber: '',
-      password: ''
+      password: '',
+      address: '',
+      description: '',  // Campo específico para nutricionistas
+      specialist: '',   // Campo específico para nutricionistas
+      experience: '',   // Campo específico para nutricionistas
+      education: '',    // Campo específico para nutricionistas
+      age: '',          // Campo específico para nutricionistas
+      patients: [],          // Campo específico para nutricionistas
+      plan: '',               // Campo específico para clientes
+      error: '',
+      successMessage: ''
     };
   },
   methods: {
-    register() {
+    async register() {
+      try {
+        // Obtén el siguiente id disponible del tipo de usuario
+        const nextId = await this.getNextId();
 
+        // Construye los datos del usuario con el nuevo id
+        const userData = {
+          id: nextId,
+          username: this.username,
+          email: this.email,
+          phonenumber: this.phonenumber,
+          password: this.password,
+          address: this.address,
+        };
+
+        if (this.userType === 'nutritionist') {
+          // Agrega campos específicos para nutricionistas al objeto userData
+          userData.description = this.description;
+          userData.specialist = this.specialist;
+          userData.experience = this.experience;
+          userData.education = this.education;
+          userData.age = this.age;
+          userData.patients = this.patients;
+
+          // Agrega otros campos específicos para nutricionistas aquí
+        }
+
+        if (this.userType === 'client') {
+          // Agrega campos específicos para client al objeto userData
+          userData.plan = this.plan;
+
+          // Agrega otros campos específicos para nutricionistas aquí
+        }
+
+        // Realiza la solicitud HTTP para registrar al usuario
+        await axios.post(`http://localhost:3000/${this.userType}s`, userData);
+
+        // Limpiar los campos después de un registro exitoso
+        this.username = '';
+        this.email = '';
+        this.phonenumber = '';
+        this.password = '';
+        this.description = '';
+        this.specialist = '';
+        this.address = '';
+        this.experience = '';
+        this.education = '';
+        this.patients = '';
+        this.age = '';
+        this.plan = '';
+            // Limpia otros campos específicos para nutricionistas aquí
+
+        // Muestra un mensaje de éxito
+        this.successMessage = 'User registered successfully!';
+      } catch (error) {
+        // Maneja errores de la solicitud HTTP
+        console.error('Error al registrar el usuario', error);
+        // Puedes mostrar un mensaje de error al usuario si lo prefieres
+        this.error = 'Error registering user. Please try again.';
+      }
+    },
+    async getNextId() {
+      try {
+        // Realiza una solicitud GET para obtener los usuarios existentes del tipo correspondiente
+        const response = await axios.get(`http://localhost:3000/${this.userType}s`);
+        const users = response.data;
+
+        // Encuentra el id más alto entre los usuarios existentes
+        const highestId = users.reduce((maxId, user) => (user.id > maxId ? user.id : maxId), 0);
+
+        // Devuelve el siguiente id disponible (id más alto + 1)
+        return highestId + 1;
+      } catch (error) {
+        console.error('Error al obtener el siguiente id', error);
+        throw error;
+      }
+    },
+    handleUserTypeChange() {
+      // Puedes agregar lógica adicional si es necesario cuando cambia el tipo de usuario
     }
-  }
+  },
 };
 </script>
+
+
+
 
 <style scoped>
 .register-container {
