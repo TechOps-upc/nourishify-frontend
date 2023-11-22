@@ -1,7 +1,7 @@
 <template>
   <div class="flex">
     <div class="form m-5 w-max flex-wrap">
-      <h1>{{ $t("payments.proceed") }}</h1>
+      <h1>{{ $t("payment.proceed") }}</h1>
       <h3>{{ $t("payment.titular-name") }}:</h3>
       <pv-input-text id="float-input" type="text" class="w-full" v-model="PaymentInfo.name"/>
       <h3>{{ $t("payment.card-number") }}:</h3>
