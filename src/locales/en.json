@@ -1,6 +1,8 @@
 {
   "hello": "helloooo",
   "general": {
+    "description": "Description",
+    "user-type": "Register as: ",
     "h-y-log-in": "How would you like to log in?",
     "h-y-sign-in": "How would you like to sign in?",
     "client": "Client",

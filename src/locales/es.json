@@ -1,6 +1,8 @@
 {
   "hello": "holaaaa",
   "general": {
+    "description": "Descripción",
+    "user-type": "Registrarse como: ",
     "h-y-log-in": "¿Cómo te gustaría iniciar sesión?",
     "h-y-sign-in": "¿Cómo te gustaría registrarte?",
     "client": "Cliente",
